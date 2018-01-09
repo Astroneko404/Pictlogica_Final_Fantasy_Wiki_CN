@@ -1,17 +1,105 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
-		<title> Pictlogica Final Fantasy CN Wiki</title>
+		<title> Pictlogica Final Fantasy 中文Wiki</title>
+		<meta charset="UTF8">
+		<link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">
+		
+		<style>
+			.dropbtn {
+				background-color: #0059b3;
+				color: white;
+				padding: 16px;
+				font-size: 16px;
+				border: none;
+				cursor: pointer;
+				width: 160px;
+			}
+			.dropdown {
+				position: relative;
+				display: inline-block;
+			}			
+			.dropdown-content {
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+			}
+			.dropdown-content a {
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+			}
+			.dropdown-content a:hover {background-color: #f1f1f1}
+			.dropdown:hover .dropdown-content {
+				display: block;
+			}
+			.dropdown:hover .dropbtn {
+				background-color: #1a8cff;
+			}
+		</style>
 	</head>
 	
 	<body>
 		<center>
 			<h2> 欢迎来到Pictlogica Final Fantasy中文百科！</h2>
-			<img src="logo.jpg" />
+			<img class="pure-img"src="logo.jpg" />
+			
+			<br/><br/>
+			
+			<table class="pure-table" border="0">
+				<thead>
+					<tr height="10%">
+						<th>
+							<img src="./图片资料/人物点阵图/2000_rev.png">
+							&nbsp;&nbsp;&nbsp;
+						</th>
+						<th><font color="white">
+							<div class="dropdown">
+								<button class="dropbtn"> 角色资料 </button>
+								<div class="dropdown-content">
+									<a href="./文档资料/英雄属性和技能.html" target="_blank"> 全英雄角色属性和技能 </a>
+									<a href="#"> 全角色队长技能 </a>
+									<a href="#"> 全角色特殊技能 </a>
+									<a href="#"> 全角色点阵图一览 </a>
+								</div>
+							</div>	 
+						</font></th>
+						<th><font color="white">
+							<div class="dropdown">
+								<button class="dropbtn"> 装备与道具 </button>
+								<div class="dropdown-content">
+									<a href="#"> 待更新 </a>
+								</div>
+							</div>	 
+						</font></th>
+						<th><font color="white">
+							<div class="dropdown">
+								<button class="dropbtn"> 剧情翻译 </button>
+								<div class="dropdown-content">
+									<a href="#"> 待更新 </a>
+								</div>
+							</div>	 
+						</font></th>
+						<th><font color="white">
+							<div class="dropdown">
+								<button class="dropbtn"> 攻略视频 </button>
+								<div class="dropdown-content">
+									<a href="#"> 待更新 </a>
+								</div>
+							</div>	 
+						</font></th>
+						<th>
+							&nbsp;&nbsp;&nbsp;
+							<img src="./图片资料/人物点阵图/2000.png">
+						</th>
+					</tr>
+				</thead>
+			</table>
 		</center>
 		
-		<a href="https://astronoid404.github.io/Pictlogica_Final_Fantasy_Wiki_CN/文档资料/英雄属性和技能.html">
-			查看英雄属性和技能
-		</a>
 	</body>
 </html>
