@@ -3,10 +3,30 @@
 	<head>
 		<title> 英雄属性和技能 </title>
 		<meta charset="UTF8">
-		
-		<link rel="stylesheet" href="../bootstrap-4.0.0-beta.3-dist/css/bootstrap.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		
 		<style>
+			.header img {
+				float: left;
+			}
+			.header h2 {
+				font-family: Georgia, "Times New Roman", 
+					"Microsoft YaHei", "微软雅黑", 
+					STXihei, "华文细黑", 
+					serif;
+				position: relative;
+			}
+			p {
+				font-family: Georgia, "Times New Roman", 
+					"Microsoft YaHei", "微软雅黑", 
+					STXihei, "华文细黑", 
+					serif;
+				font-size: 16px;
+				margin-left: 50px;
+			}
 			table.tableizer-table {
 				font-size: 13px;
 				border: 1px solid #ddd;
@@ -32,8 +52,23 @@
 	</head>
 
 	<body>
-		<h1> 英雄属性和技能 </h1>
-		<h3> 内容持续更新中......追上进度之后会补充说明 </h3>
+		<div class="header">
+			<img src="../图片资料/人物点阵图/2000_rev.png" hspace="20" />
+			<h2> &nbsp;&nbsp;英雄属性和技能 </h2>
+		</div>
+		
+		&nbsp;&nbsp;
+		<button data-toggle="collapse" data-target="#Pre">点此查看/隐藏说明</button>
+		<div id="Pre" class="collapse">
+			<p>
+				<br/>
+				1. 新增了过滤功能，可按照物理/魔法倍率，技能，以及武器查看英雄角色属性和其他信息<br/>
+				2. 可输入角色中文名进行模糊搜索<br/>
+				3. 已知bug：部分有复数个二星技能or三星技能的角色无法使用第二个技能进行过滤<br/>
+			</p>
+		</div>
+
+		<br></br>
 		
 		<center>		
 			
