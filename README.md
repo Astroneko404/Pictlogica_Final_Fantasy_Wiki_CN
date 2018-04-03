@@ -2,10 +2,13 @@
 
 欲浏览网页，请访问https://astronoid404.github.io/Pictlogica_Final_Fantasy_Wiki_CN/
 
+
 <b>Reference：</b>
 <br/>Bootstrap
 <br/>Cut & Paste HTML Table filter script (v 1.6) by Max Guglielmi
 <br/>Jquery 3.2.1
+<br/>http://bytutorial.com/blogs/css/css-vertical-fly-out-menu
+
 
 <b>声明：</b>
 <br/>本网站仅供各位PFF的爱好者学习交流使用，数据来源均为游戏本体以及日站wiki(http://wikiwiki.jp/pictlogicaff/) 
