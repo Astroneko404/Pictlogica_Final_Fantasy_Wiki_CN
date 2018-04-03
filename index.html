@@ -6,109 +6,114 @@
 		<link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">
 		<link rel="icon" href="./icon.png">
 		<style>
-			.dropbtn {
-				background-color: #0059b3;
-				color: white;
-				padding: 16px;
-				font-size: 16px;
-				border: none;
-				cursor: pointer;
-				width: 160px;
+			body {
+				background-image: url("bg.jpg");
+				background-repeat: no-repeat;
 			}
-			.dropdown {
-				position: relative;
-				display: inline-block;
-			}			
-			.dropdown-content {
-				display: none;
-				position: absolute;
-				background-color: #f9f9f9;
-				min-width: 160px;
-				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-				z-index: 1;
+			h3 {
+				font-family: Georgia, "Times New Roman", 
+					"Microsoft YaHei", "微软雅黑", 
+					STXihei, "华文细黑", 
+					serif;
+				position:absolute;
+				left:10px;
 			}
-			.dropdown-content a {
-				color: black;
-				padding: 12px 16px;
-				text-decoration: none;
-				display: block;
+			#menuwrapper {
+				text-align:center;
+				position: fixed;
+				left:15px;
+				top:60px;
 			}
-			.dropdown-content a:hover {background-color: #f1f1f1}
-			.dropdown:hover .dropdown-content {
-				display: block;
+			#menuwrapper ul, #menuwrapper ul li{
+				margin:0;
+				padding:0px;
+				list-style:none;
+				text-align:center;
+				vertical-align:middle;
 			}
-			.dropdown:hover .dropbtn {
-				background-color: #1a8cff;
+			#menuwrapper ul li{
+				background-color:#27377c;
+				border-bottom:solid 1px white;
+				height:40px;
+				width:170px;		
+				cursor:pointer;
+			}
+			#menuwrapper ul li:hover{
+				background-color:#6a7ed8;
+				position:relative;
+			}
+			#menuwrapper ul li a{
+				padding:10px 15px;
+				color:#ffffff;
+				text-decoration:none;
+				display:inline-block;
+			}
+			#menuwrapper ul li ul{
+				position:absolute;
+				display:none;
+			}
+			#menuwrapper ul li:hover ul{
+				left:170px;
+				top:0px;
+				display:block;
+			}
+			#menuwrapper ul li ul li{
+				background-color:#68aed1;
+			}
+			#menuwrapper ul li:hover ul li:hover{
+				background-color:#9ec2d3;
+			}
+			#menuwrapper ul li ul li a{
+				color:#ffffff;
+				display:inline-block;
+				width:120px;
+			}
+			.clear{
+				clear:both;
 			}
 		</style>
 	</head>
 	
 	<body>
-		<center>
-			<h2> 欢迎来到Pictlogica Final Fantasy中文百科！</h2>
-			<img class="pure-img"src="logo.jpg" />
+		<h3><b><strong>&nbsp;&nbsp;欢迎来到Pictlogica Final Fantasy中文百科！</strong></b></h3>
 			
-			<br/><br/>
-			
-			<table class="pure-table" border="0">
-				<thead>
-					<tr height="10%">
-						<th>
-							<img src="./图片资料/人物点阵图/2000_rev.png">
-							&nbsp;&nbsp;&nbsp;
-						</th>
-						<th><font color="white">
-							<div class="dropdown">
-								<button class="dropbtn"> 角色资料 </button>
-								<div class="dropdown-content">
-									<a href="./文档资料/英雄属性和技能.html" target="_blank"> 全英雄角色属性和技能 </a>
-									<a href="./文档资料/全员LS.html" target="_blank"> 全角色队长技能 </a>
-									<a href="#"> 全角色特殊技能 </a>
-									<a href="./文档资料/点阵图一览.html" target="_blank"> 全角色点阵图一览 </a>
-								</div>
-							</div>	 
-						</font></th>
-						<th><font color="white">
-							<div class="dropdown">
-								<button class="dropbtn"> 装备与道具 </button>
-								<div class="dropdown-content">
-									<a href="#"> 待更新 </a>
-								</div>
-							</div>	 
-						</font></th>
-						<th><font color="white">
-							<div class="dropdown">
-								<button class="dropbtn"> 剧情翻译 </button>
-								<div class="dropdown-content">
-									<a href="#"> 待更新 </a>
-								</div>
-							</div>	 
-						</font></th>
-						<th><font color="white">
-							<div class="dropdown">
-								<button class="dropbtn"> 攻略视频 </button>
-								<div class="dropdown-content">
-									<a href="#"> 待更新 </a>
-								</div>
-							</div>	 
-						</font></th>
-						<th>
-							&nbsp;&nbsp;&nbsp;
-							<img src="./图片资料/人物点阵图/2000.png">
-						</th>
-					</tr>
-				</thead>
-			</table>
-		</center>
-		
 		<br/><br/>
-		   
-		<div style="position: absolute; bottom: 5px;">
-			本网站仅供各位PFF的爱好者学习交流使用，数据来源均为游戏本体以及日站wiki(http://wikiwiki.jp/pictlogicaff/)
+			
+		<div id="menuwrapper">
+			<ul>
+				<li><font color="white"><a href="#"><b>角色资料</b></a>
+					<ul>
+						<li><a href="./文档资料/英雄属性和技能.html" target="_blank"><b>属性&amp;技能</b></a></li>
+						<li><a href="./文档资料/全员LS.html" target="_blank"><b>队长技能</b></a></li>
+						<li><a href="#"><b>特殊技能</b></a></li>
+						<li><a href="./文档资料/点阵图一览.html" target="_blank"><b>点阵图一览</b></a></li>
+				</font></ul>	 
+				<li><font color="white"><a href="#"><b>装备与道具</b></a>
+					<ul>
+						<li><a href="#"><b>待更新</b></a></li>
+					</ul> 
+				</font></li>
+				<li><font color="white"><a href="#"><b>剧情翻译</b></a>
+					<ul>
+						<li><a href="#"><b>待更新</b></a></li>
+					</ul>	 
+				</font></li>
+				<li><font color="white"><a href="#"><b>攻略</b></a>
+					<ul>
+						<li><a href="#"><b>待更新</b></a></li>
+					</ul> 
+				</font></li>
+			</ul>
+		</div>
+		  
+		<div style="position: absolute; bottom: 7px;">
+			&nbsp;&nbsp;&nbsp;本网站仅供各位PFF的爱好者学习交流使用，数据来源均为游戏本体以及日站wiki(http://wikiwiki.jp/pictlogicaff/)
 			<br/>
-			该网站所使用的图像素材版权归Square Enix所有
+			&nbsp;&nbsp;&nbsp;该网站所使用的图像素材版权归Square Enix所有
 			<br/>
-			Square Enix拥有一切解释权
-		</div>		
+			&nbsp;&nbsp;&nbsp;Square Enix拥有一切解释权
+		</div>	
+		
+		<br/><br/>		
 	</body>
 </html>
