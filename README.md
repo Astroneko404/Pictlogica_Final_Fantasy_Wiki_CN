@@ -7,7 +7,7 @@
 <br/>Bootstrap
 <br/>Cut & Paste HTML Table filter script (v 1.6) by Max Guglielmi
 <br/>Jquery 3.2.1
-<br/>http://bytutorial.com/blogs/css/css-vertical-fly-out-menu
+<br/>Zeta template by Colorlib
 
 
 <b>声明：</b>
