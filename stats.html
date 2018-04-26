@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+<title> 英雄属性和技能 </title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Zeta Template Project - Services">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/services_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/services_responsive.css">
+<link rel="icon" href="./icon.png">
+<script language="javascript" type="text/javascript" src="TableFilter_EN/tablefilter.js"></script>
+
+<style>
+	table.tableizer-table {
+		font-size: 13px;
+		border: 1px solid #ddd;
+		border-collapse: collapse;
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		border: 1px solid #ddd;
+		color: black;
+		height: 40px;
+		margin: 3px;
+		text-align: center;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		border: 1px solid #ddd;
+		color: #FFF;
+		font-weight: bold;
+		height: 40px;
+		text-align: center;
+	}
+	#Table {
+		position: static;
+	}
+</style>
+</head>
+
+<body>
+<div class="super_container">	
+	<header class="header d-flex flex-row justify-content-end align-items-center">
+
+		<!-- Main Navigation -->
+		<nav class="main_nav justify-self-end">
+			<ul class="nav_items">
+				<li class="active"><a href="index.html"><span>主页</span></a></li>
+				<li><a href="characters.html"><span>人物资料</span></a></li>
+				<li><a href="#"><span>装备与道具</span></a></li>
+				<li><a href="#"><span>剧情翻译</span></a></li>
+				<li><a href="#"><span>攻略</span></a></li>
+				<li><a href="about.html"><span>关于本站</span></a></li>
+			</ul>
+		</nav>
+
+		<!-- Hamburger -->
+		<div class="hamburger_container">
+			<span class="hamburger_text">Menu</span>
+			<span class="hamburger_icon"></span>
+		</div>
+
+	</header>
+	
+	<!-- Page Top -->
+	<div class="home prlx_parent">
+		<!-- Parallax Background -->
+		<!-- <div class="page_top_background parallax-window" data-parallax="scroll" data-speed="0.7" data-image-src="images/services_parallax.jpg"></div> -->
+		<div class="home_background prlx" style="background-image:url(crystal.jpg)"></div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="home_content">
+						<h1>英雄属性和技能</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<center>
+	<div class="button services_button" data-toggle="collapse" data-target="#Pre">
+		<a href="#" class="d-flex flex-row align-items-center justify-content-center">
+			查看/隐藏说明
+		</a>	
+	</div>
+</center>
+
+<div id="Pre" class="collapse in">
+	<center>
+		<p>
+			<br/>
+			1. 新增了过滤功能，可按照物理/魔法倍率，技能，以及武器查看英雄角色属性和其他信息<br/>
+			2. 可输入角色中文名进行模糊搜索<br/>
+			3. 网页读取可能较慢，请耐心等待<br/>
+			4. 已知bug：部分有复数个二星技能or三星技能的角色无法使用第二个技能进行过滤<br/>
+		</p>
+	</center>
+</div>
+
+<br/>
+
+<div id="Table">
+<center><table bgcolor="white" class="tableizer-table" id="mainTable" width="95%">
+	<tr><th>作品</th><th>ID</th><th>角色中文名</th><th>角色日文名</th><th>性别</th><th>阶级</th><th>HP</th><th>力</th><th>知性</th><th>素早</th><th>幸运</th><th>普攻</th><th>白魔法</th><th>黑魔法</th><th>召唤</th><th>飞行</th><th>武器种类</th><th>一技能</th><th>二技能</th><th>三技能</th><th>备注</th></tr>
+	<tr><td>FF2</td><td>25</td><td bgcolor="orange">玛利亚</td><td>マリア</td><td>♀</td><td>Ⅴ</td><td> 763 </td><td> 145 </td><td> 209 </td><td> 99 </td><td> 87 </td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.5</td><td>弓</td><td>女神的祝福</td><td>欧拉</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF4</td><td>26</td><td bgcolor="orange">艾吉</td><td>エッジ</td><td>♂</td><td>Ⅴ</td><td> 966 </td><td> 155 </td><td> 49 </td><td> 163 </td><td> 143 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>刀</td><td>分身</td><td>投掷</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>FF5</td><td>27</td><td bgcolor="orange">法里斯</td><td>ファリス</td><td>♀</td><td>Ⅴ</td><td> 864 </td><td> 152 </td><td> 192 </td><td> 136 </td><td> 102 </td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>短剑</td><td>炮击</td><td>投掷</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF7</td><td>28</td><td bgcolor="orange">克劳德</td><td>クラウド</td><td>♂</td><td>Ⅴ</td><td> 1309 </td><td> 200 </td><td> 175 </td><td> 64 </td><td> 57 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>狂暴</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF10</td><td>29</td><td bgcolor="orange">阿龙</td><td>アーロン</td><td>♂</td><td>Ⅴ</td><td> 1539 </td><td> 193 </td><td> 87 </td><td> 30 </td><td> 24 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>刀</td><td>保护</td><td>蓄力</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF13-2</td><td>30</td><td bgcolor="orange">塞拉</td><td>セラ</td><td>♀</td><td>Ⅴ</td><td> 867 </td><td> 165 </td><td> 50 </td><td> 135 </td><td> 91 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>弓</td><td>狙击</td><td>速射</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF9</td><td>35</td><td bgcolor="orange">斯坦纳</td><td>スタイナー</td><td>♂</td><td>Ⅴ</td><td> 1339 </td><td> 184 </td><td> 46 </td><td> 24 </td><td> 37 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>魔法剑</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF9</td><td>36</td><td bgcolor="orange">潘妮罗</td><td>パンネロ</td><td>♀</td><td>Ⅴ</td><td> 774 </td><td> 144 </td><td> 212 </td><td> 106 </td><td> 114 </td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>短剑</td><td>魔力之泉</td><td>跳舞</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>FF13</td><td>37</td><td bgcolor="lightgreen">班尼拉</td><td>ヴァニラ</td><td>♀</td><td>Ⅴ</td><td> 422 </td><td> 86 </td><td> 181 </td><td> 52 </td><td> 23 </td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>女神的祝福</td><td>连续魔</td><td>核融</td><td>金币任务</td></tr>
+	<tr><td>FF13-2</td><td>38</td><td bgcolor="orange">诺埃尔</td><td>ノエル</td><td>♂</td><td>Ⅴ</td><td> 1321 </td><td> 201 </td><td> 41 </td><td> 49 </td><td> 31 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>奥义</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>LRFF13</td><td>39</td><td bgcolor="lightgreen">雷霆</td><td>ライトニング</td><td>♀</td><td>Ⅴ</td><td> 411 </td><td> 167 </td><td> 97 </td><td> 99 </td><td> 45 </td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>奥义</td><td>居合斩</td><td>金币任务</td></tr>
+	<tr><td>FF11</td><td>40</td><td bgcolor="orange">天蟾</td><td>テンゼン</td><td>♂</td><td>Ⅴ</td><td> 824 </td><td> 202 </td><td> 30 </td><td> 51 </td><td> 74 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>刀</td><td>OP</td><td>狂暴</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>PFF</td><td>45</td><td bgcolor="pink">驯鹿泰达</td><td>トナカイティーダ</td><td>♂</td><td> Ⅲ </td><td> 216 </td><td> 72 </td><td> 64 </td><td> 102 </td><td> 34 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>奥义</td><td>强斩</td><td>圣诞活动</td></tr>
+	<tr><td>PFF</td><td>46</td><td bgcolor="pink">圣诞雷霆</td><td>サンタライトニング</td><td>♀</td><td> Ⅲ </td><td> 202 </td><td> 86 </td><td> 69 </td><td> 86 </td><td> 46 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>奥义</td><td>居合斩</td><td>圣诞活动</td></tr>
+	<tr><td>FF6</td><td>47</td><td bgcolor="orange">马修</td><td>マッシュ</td><td>♂</td><td>Ⅴ</td><td> 1547 </td><td> 187 </td><td> 30 </td><td> 81 </td><td> 48 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>真言</td><td>蓄力</td><td>前冲</td><td>&nbsp;</td></tr>
+	<tr><td>FF10</td><td>48</td><td bgcolor="lightgreen">尤娜</td><td>ユウナ</td><td>♀</td><td>Ⅴ</td><td> 382 </td><td> 97 </td><td> 162 </td><td> 74 </td><td> 38 </td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td>1.0</td><td bgcolor="orange">4.3</td><td>1.0</td><td>杖</td><td>女神的祝福</td><td>欧拉</td><td>巴哈姆特</td><td>金币任务</td></tr>
+	<tr><td>FF10</td><td>49</td><td bgcolor="orange">基玛利</td><td>キマリ</td><td>♂</td><td>Ⅴ</td><td> 1459 </td><td> 178 </td><td> 45 </td><td> 71 </td><td> 24 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>保护</td><td>蓄力</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>FF10-2</td><td>50</td><td bgcolor="orange">琉库</td><td>リュック</td><td>♀</td><td>Ⅴ</td><td> 807 </td><td> 144 </td><td> 53 </td><td> 208 </td><td> 111 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>短剑</td><td>OP</td><td>调和限定池</td><td>偷盗</td><td>&nbsp;</td></tr>
+	
+	
+	<tr><td>FF10-2</td><td>51</td><td bgcolor="orange"> 派因 </td><td> パイン </td><td>♀</td><td>Ⅴ</td><td> 1216 </td><td> 180 </td><td> 30 </td><td> 91 </td><td> 38 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>暗黑剑</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>零式</td><td>52</td><td bgcolor="orange"> Trey </td><td> トレイ </td><td>♂</td><td>Ⅴ</td><td> 747 </td><td> 181 </td><td> 78 </td><td> 40 </td><td> 111 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>弓</td><td>狙击</td><td>蓄力</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF4</td><td>57</td><td bgcolor="orange"> 波罗姆 </td><td> ポロム </td><td>♀</td><td>Ⅴ</td><td> 776 </td><td> 119 </td><td> 206 </td><td> 80 </td><td> 65 </td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>女神的祝福</td><td>欧拉</td><td>神圣</td><td>&nbsp;</td></tr>
+	<tr><td>FF7</td><td>58</td><td bgcolor="orange"> 尤菲 </td><td> ユフィ </td><td>♀</td><td>Ⅴ</td><td> 824 </td><td> 149 </td><td> 1 </td><td> 135 </td><td> 166 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>投掷</td><td>分身</td><td>投掷</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>FF8</td><td>59</td><td bgcolor="orange"> 赛尔 </td><td> ぜル </td><td>♂</td><td>Ⅴ</td><td> 1213 </td><td> 211 </td><td> 35 </td><td> 70 </td><td> 45 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>OP</td><td>蓄力</td><td>前冲</td><td>&nbsp;</td></tr>
+	<tr><td>FF9</td><td>60</td><td bgcolor="orange"> 芙蕾雅 </td><td> フライヤ </td><td>♀</td><td>Ⅴ</td><td> 1074 </td><td> 177 </td><td> 63 </td><td> 93 </td><td> 66 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>真言</td><td>HP吸收</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>FF5</td><td>61</td><td bgcolor="lightgreen"> 巴兹 </td><td> バッツ </td><td>♂</td><td>Ⅴ</td><td> 691 </td><td> 172 </td><td> 38 </td><td> 61 </td><td> 47 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>魔法剑</td><td>乱击</td><td>金币任务</td></tr>
+	<tr><td rowspan="2">FF5</td><td rowspan="2">62</td><td rowspan="2" bgcolor="lightgreen"> 蕾娜 </td><td rowspan="2"> レナ </td><td rowspan="2">♀</td><td rowspan="2">Ⅴ</td><td rowspan="2">476</td><td rowspan="2">126</td><td rowspan="2">201</td><td rowspan="2">62</td><td rowspan="2">41</td><td rowspan="2" bgcolor="cyan">0.7</td>
+		<td rowspan="2" bgcolor="orange">1.7</td><td rowspan="2">1.0</td><td rowspan="2">1.0</td><td rowspan="2">1.0</td><td rowspan="2">短剑</td><td rowspan="2">女神的祝福</td><td>跳舞<td rowspan="2">神圣</td><td rowspan="2">金币任务</td></tr>
+		<tr><td>见破</td></tr>
+	<tr><td>FF6</td><td>67</td><td bgcolor="lightgreen"> 洛克 </td><td> ロック </td><td>♂</td><td>Ⅴ</td><td> 620 </td><td> 142 </td><td> 44 </td><td> 141 </td><td> 142 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>短剑</td><td>保护</td><td>投掷</td><td>偷盗</td><td>金币任务</td></tr>
+	<tr><td>FF6</td><td>68</td><td bgcolor="orange"> 埃德加 </td><td> エドガー </td><td>♂</td><td>Ⅴ</td><td> 1266 </td><td> 174 </td><td> 45 </td><td> 24 </td><td> 78 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>保护</td><td>HP吸收</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>FF6</td><td>69</td><td bgcolor="pink"> 赛丽斯 </td><td> セリス </td><td>♀</td><td>Ⅴ</td><td> 940 </td><td> 157 </td><td> 184 </td><td> 36 </td><td> 23 </td><td>1.0</td><td bgcolor="orange">1.5</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>连续魔</td><td>神圣</td><td>记忆光海</td></tr>
+	<tr><td>FF12</td><td>70</td><td bgcolor="orange"> 芙兰 </td><td> フラン </td><td>♀</td><td>Ⅴ</td><td> 820 </td><td> 172 </td><td> 61 </td><td> 98 </td><td> 102 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>弓</td><td>OP</td><td>狂暴</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF9</td><td>71</td><td bgcolor="orange"> 贝特丽克斯 </td><td> ベアトリクス </td><td>♀</td><td>Ⅴ</td><td> 1127 </td><td> 173 </td><td> 169 </td><td> 74 </td><td> 63 </td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>魔法剑</td><td>神圣</td><td>&nbsp;</td></tr>
+	<tr><td rowspan="2">FF14</td><td rowspan="2">72</td><td rowspan="2" bgcolor="orange">伊达</td><td rowspan="2">イダ</td><td rowspan="2">♀</td><td rowspan="2">Ⅴ</td><td rowspan="2">1085</td><td rowspan="2">186</td><td rowspan="2">33</td><td rowspan="2">116</td><td rowspan="2">36</td><td rowspan="2">1.0</td><td rowspan="2" bgcolor="cyan">0.7</td>
+		<td rowspan="2" bgcolor="cyan">0.7</td><td rowspan="2">1.0</td><td rowspan="2" bgcolor="cyan">0.8</td><td rowspan="2">格斗</td><td rowspan="2">真言</td><td>蓄力</td><td rowspan="2">前冲</td><td rowspan="2">&nbsp;</td></tr>
+		<tr><td>见破</td></tr>
+	<tr><td>FF4</td><td> 73 </td><td bgcolor="orange"> 帕罗姆 </td><td> パロム </td><td>♂</td><td>Ⅴ</td><td> 776 </td><td> 119 </td><td> 206 </td><td> 80 </td><td> 65 </td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>魔力之泉</td><td>连续魔</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>FF13</td><td> 74 </td><td bgcolor="orange"> 芳 </td><td> ファング </td><td>♀</td><td>Ⅴ</td><td> 1087 </td><td> 169 </td><td> 30 </td><td> 140 </td><td> 55 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>OP</td><td>狂暴</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>FF1</td><td> 75 </td><td bgcolor="orange"> 光之战士 </td><td> ウォーリアオブライト </td><td>♂</td><td>Ⅴ</td><td> 1260 </td><td> 190 </td><td> 54 </td><td> 74 </td><td> 69 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>奥义</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF8</td><td> 76 </td><td bgcolor="yellow"> 塞法 </td><td> サイファー </td><td>♂</td><td>Ⅴ</td><td> 1184 </td><td> 243 </td><td> 61 </td><td> 55 </td><td> 29 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>暗黑剑</td><td>乱击</td><td>EXA</td></tr>
+	<tr><td>FF8</td><td> 77 </td><td bgcolor="lightgreen"> 莉诺雅 </td><td> リノア </td><td>♀</td><td>Ⅴ</td><td> 454 </td><td> 172 </td><td> 177 </td><td> 58 </td><td> 46 </td><td>1.0</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>投掷</td><td>魔力之泉</td><td>狂暴</td><td>核融</td><td>金币任务</td></tr>
+	<tr><td>FF8</td><td> 82 </td><td bgcolor="orange"> 史考尔 </td><td> スコール </td><td>♂</td><td>Ⅴ</td><td> 1392 </td><td> 201 </td><td> 46 </td><td> 66 </td><td> 29 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>奥义</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF8</td><td> 83 </td><td bgcolor="orange"> 赛尔菲 </td><td> セルフィ </td><td>♀</td><td>Ⅴ</td><td> 819 </td><td> 143 </td><td> 191 </td><td> 79 </td><td> 112 </td><td>1.0</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>女神的祝福</td><td>连续魔</td><td>老虎机</td><td>&nbsp;</td></tr>
+	<tr><td>FF9</td><td> 84 </td><td bgcolor="orange"> 艾可 </td><td> エーコ </td><td>♀</td><td>Ⅴ</td><td> 672 </td><td> 99 </td><td> 211 </td><td> 55 </td><td> 23 </td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td>1.0</td><td bgcolor="orange">4.8</td><td>1.0</td><td>杖</td><td>AF</td><td>欧拉</td><td>神圣</td><td>&nbsp;</td></tr>
+	<tr><td>FF10</td><td> 85 </td><td bgcolor="orange"> 泰达 </td><td> ティーダ </td><td>♂</td><td>Ⅴ</td><td> 1015 </td><td> 168 </td><td> 45 </td><td> 112 </td><td> 115 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>奥义</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF4TA</td><td> 86 </td><td bgcolor="orange"> 十六夜 </td><td> イザヨイ </td><td>♀</td><td>Ⅴ</td><td> 859 </td><td> 147 </td><td> 71 </td><td> 175 </td><td> 125 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>刀</td><td>分身</td><td>跳舞</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>FF1</td><td> 87 </td><td bgcolor="yellow"> 加兰德 </td><td> ガーランド </td><td>♂</td><td>Ⅴ</td><td> 2002 </td><td> 194 </td><td> 74 </td><td> 25 </td><td> 66 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>斧</td><td>保护</td><td>暗黑剑</td><td>强斩</td><td>EXA</td></tr>
+	<tr><td>FF14</td><td> 92 </td><td bgcolor="orange"> 雅·修特拉 </td><td> ヤ・シュトラ </td><td>♀</td><td>Ⅴ</td><td> 730 </td><td> 105 </td><td> 213 </td><td> 133 </td><td> 38 </td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>女神的祝福</td><td>欧拉</td><td>神圣</td><td>&nbsp;</td></tr>
+	<tr><td>FF14</td><td> 93 </td><td bgcolor="orange"> 帕帕里莫 </td><td> パパリモ </td><td>♂</td><td>Ⅴ</td><td> 842 </td><td> 89 </td><td> 203 </td><td> 48 </td><td> 36 </td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>魔力之泉</td><td>连续魔</td><td>算术</td><td>&nbsp;</td></tr>
+	<tr><td>FF14</td><td> 94 </td><td bgcolor="lightgreen"> 桑克瑞德 </td><td> サンクレッド </td><td>♂</td><td>Ⅴ</td><td> 658 </td><td> 157 </td><td> 41 </td><td> 89 </td><td> 72 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>奥义</td><td>强斩</td><td>金币任务</td></tr>
+	<tr><td>FF2</td><td> 95 </td><td bgcolor="orange"> 盖伊 </td><td> ガイ </td><td>♂</td><td>Ⅴ</td><td> 1226 </td><td> 210 </td><td> 66 </td><td> 72 </td><td> 1 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>斧</td><td>引雷</td><td>蓄力</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF4</td><td> 96 </td><td bgcolor="orange"> 吉尔伯特 </td><td> ギルバート </td><td>♂</td><td>Ⅴ</td><td> 712 </td><td> 130 </td><td> 111 </td><td> 108 </td><td> 87 </td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>乐器</td><td>唱歌</td><td>调和限定池</td><td>话术</td><td>&nbsp;</td></tr>
+	<tr><td>FF6</td><td> 97 </td><td bgcolor="orange"> 蒂娜 </td><td> ティナ </td><td>♀</td><td>Ⅴ</td><td> 805 </td><td> 141 </td><td> 195 </td><td> 47 </td><td> 48 </td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td bgcolor="orange">4.8</td><td>1.0</td><td>剑</td><td>AF</td><td>连续魔</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>FF7</td><td> 98 </td><td bgcolor="yellow"> 雷诺 </td><td> レノ </td><td>♂</td><td>Ⅴ</td><td> 1168 </td><td> 180 </td><td> 48 </td><td> 210 </td><td> 98 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>格斗</td><td>引雷</td><td>投掷</td><td>乱击</td><td>EXA</td></tr>
+	
+	
+	<tr><td>FF7</td><td>101</td><td bgcolor="orange">蒂法</td><td>ティファ</td><td>♀</td><td>Ⅴ</td><td> 959 </td><td> 179 </td><td> 49 </td><td> 117 </td><td> 144 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>OP</td><td>蓄力</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF7</td><td>102</td><td bgcolor="orange">西德</td><td>シド</td><td>♂</td><td>Ⅴ</td><td> 1521 </td><td> 162 </td><td> 52 </td><td> 81 </td><td> 30 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>炮击</td><td>HP吸收</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>FF7</td><td>103</td><td bgcolor="lightgreen">文森特</td><td>ヴィンセント</td><td>♂</td><td>Ⅴ</td><td> 823 </td><td> 146 </td><td> 103 </td><td> 20 </td><td> 65 </td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>铳</td><td>狙击</td><td>狂暴</td><td>乱击</td><td>金币任务</td></tr>
+	<tr><td>FF8</td><td>104</td><td bgcolor="orange">拉格纳</td><td>ラグナ</td><td>♂</td><td>Ⅴ</td><td>817</td><td>198</td><td>31</td><td>52</td><td>81</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>铳</td><td>狙击</td><td>速射</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF6</td><td>105</td><td bgcolor="orange">加源</td><td>カイエン</td><td>♂</td><td>Ⅴ</td><td>1107</td><td>176</td><td>39</td><td>64</td><td>130</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>刀</td><td>OP</td><td>蓄力</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF9</td><td>106</td><td bgcolor="orange">萨拉曼达</td><td>サラマンダー</td><td>♂</td><td>Ⅴ</td><td>1327</td><td>185</td><td>116</td><td>126</td><td>47</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>分身</td><td>蓄力</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF10</td><td>107</td><td bgcolor="yellow">西摩亚</td><td>シーモア</td><td>♂</td><td>Ⅴ</td><td>906</td><td>121</td><td>241</td><td>55</td><td>48</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td bgcolor="orange">5.1</td><td>1.0</td><td>杖</td><td>AF</td><td>连续魔</td><td>算术</td><td>EXA</td></tr>
+	<tr><td>FFT</td><td>110</td><td bgcolor="lightgreen">拉姆撒</td><td>ラムザ</td><td>♂</td><td>Ⅴ</td><td>927</td><td>186</td><td>130</td><td>59</td><td>38</td><td>1.0</td><td bgcolor="orange">1.5</td><td bgcolor="orange">1.5</td><td bgcolor="orange">2.3</td><td>1.0</td><td>剑</td><td>OP</td><td>连续魔</td><td>强斩</td><td>金币任务</td></tr>
+	<tr><td>FFT</td><td>111</td><td bgcolor="orange">阿格莉娅斯</td><td>アグリアス</td><td>♀</td><td>Ⅴ</td><td>1106</td><td>188</td><td>150</td><td>40</td><td>45</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>魔法剑</td><td>神圣</td><td>&nbsp;</td></tr>
+	<tr><td>FFT</td><td>112</td><td bgcolor="orange">穆斯塔迪奥</td><td>ムスタディオ</td><td>♂</td><td>Ⅴ</td><td>842</td><td>189</td><td>33</td><td>37</td><td>101</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>铳</td><td>狙击</td><td>調合</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF5</td><td>113</td><td bgcolor="orange">克露露</td><td>クルル</td><td>♀</td><td>Ⅴ</td><td>839</td><td>96</td><td>191</td><td>166</td><td>57</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>魔力之泉</td><td>连续魔</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>零式</td><td>114</td><td bgcolor="orange">Ace</td><td>エース</td><td>♂</td><td>Ⅴ</td><td>714</td><td>177</td><td>49</td><td>83</td><td>131</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>卡牌</td><td>OP</td><td>速射</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF12</td><td>115</td><td bgcolor="yellow">加布拉斯</td><td>ガブラス</td><td>♂</td><td>Ⅴ</td><td>1569</td><td>200</td><td>84</td><td>36</td><td>97</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>保护</td><td>暗黑剑</td><td>强斩</td><td>EXA</td></tr>
+	<tr><td>FF12</td><td>116</td><td bgcolor="orange">梵</td><td>ヴァン</td><td>♂</td><td>Ⅴ</td><td>1257</td><td>192</td><td>183</td><td>52</td><td>38</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>奥义</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF12</td><td>117</td><td bgcolor="lightgreen">艾雪</td><td>アーシェ</td><td>♀</td><td>Ⅴ</td><td>907</td><td>169</td><td>183</td><td>52</td><td>38</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>魔力之泉</td><td>连续魔</td><td>核融</td><td>金币任务</td></tr>
+	<tr><td>FF12</td><td>118</td><td bgcolor="orange">巴尔弗雷亚</td><td>バル核融</td><td>♂</td><td>Ⅴ</td><td>830</td><td>193</td><td>44</td><td>111</td><td>35</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>铳</td><td>狙击</td><td>速射</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>FF13</td><td>119</td><td bgcolor="orange">雷霆</td><td>ライトニング</td><td>♀</td><td>Ⅴ</td><td>1018</td><td>195</td><td>149</td><td>99</td><td>51</td><td>1.0</td><td bgcolor="orange">1.5</td><td>1.0</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>奥义</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF6</td><td>120</td><td bgcolor="orange">西捷亚</td><td>セッツァー</td><td>♂</td><td>Ⅴ</td><td>1051</td><td>151</td><td>35</td><td>56</td><td>169</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>卡牌</td><td>炮击</td><td>投掷</td><td>老虎机</td><td>&nbsp;</td></tr>
+	<tr><td rowspan="2">FF4TA</td><td rowspan="2">121</td><td rowspan="2" bgcolor="orange">露卡</td><td rowspan="2">ルカ</td><td rowspan="2">♀</td><td rowspan="2">Ⅴ</td><td rowspan="2">1681</td><td rowspan="2">158</td><td rowspan="2">45</td><td rowspan="2">25</td><td rowspan="2">48</td>
+		<td rowspan="2">1.0</td><td rowspan="2" bgcolor="cyan">0.7</td><td rowspan="2" bgcolor="cyan">0.7</td><td rowspan="2">1.0</td><td rowspan="2">1.0</td><td rowspan="2">斧</td><td rowspan="2">保护</td><td>蓄力<td rowspan="2">强斩</td><td rowspan="2">&nbsp;</td></tr>
+		<tr><td>见破</td></tr>
+	<tr><td>FF9</td><td>122</td><td bgcolor="yellow">库加</td><td>クジャ</td><td>♂</td><td>Ⅴ</td><td>903</td><td>128</td><td>222</td><td>174</td><td>47</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>魔力之泉</td><td>连续魔</td><td>核融</td><td>EXA</td></tr>
+	<tr><td>FF9</td><td>127</td><td bgcolor="orange">吉坦</td><td>ジタン</td><td>♂</td><td>Ⅴ</td><td>1011</td><td>162</td><td>44</td><td>180</td><td>46</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>短剑</td><td>保护</td><td>狂暴</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>FF9</td><td>128</td><td bgcolor="orange">比比</td><td>ビビ</td><td>♂</td><td>Ⅴ</td><td>666</td><td>86</td><td>208</td><td>50</td><td>70</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>魔力之泉</td><td>连续魔</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>FF9</td><td>129</td><td bgcolor="lightgreen">嘉妮特</td><td>ガーネット</td><td>♀</td><td>Ⅴ</td><td>643</td><td>116</td><td>191</td><td>136</td><td>38</td><td>1.0</td><td bgcolor="orange">1.3</td><td>1.0</td><td bgcolor="orange">4.8</td><td>1.0</td><td>魔棒</td><td>女神的祝福</td><td>調合</td><td>巴哈姆特</td><td>金币任务</td></tr>
+	<tr><td>FF10-2</td><td>130</td><td bgcolor="orange">尤娜</td><td>ユウナ</td><td>♀</td><td>Ⅴ</td><td>860</td><td>181</td><td>175</td><td>57</td><td>87</td><td>1.0</td><td bgcolor="orange">1.5</td><td bgcolor="orange">1.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>铳</td><td>女神的祝福</td><td>连续魔</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF2</td><td>131</td><td bgcolor="orange">菲力欧尼尔</td><td>フリオニール</td><td>♂</td><td>Ⅴ</td><td>1065</td><td>205</td><td>37</td><td>43</td><td>87</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>奥义</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF6</td><td>132</td><td bgcolor="orange">乌马洛</td><td>ウーマロ</td><td>♂</td><td>Ⅴ</td><td>743</td><td>245</td><td>1</td><td>1</td><td>35</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>OP</td><td>狂暴</td><td>前冲</td><td>&nbsp;</td></tr>
+	<tr><td>FF4</td><td>133</td><td bgcolor="yellow">高贝扎</td><td>ゴルベザ</td><td>♂</td><td>Ⅴ</td><td>1496</td><td>134</td><td>197</td><td>40</td><td>24</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>保护</td><td>连续魔</td><td>核融</td><td>EXA</td></tr>
+	<tr><td>FF4</td><td>138</td><td bgcolor="lightgreen">塞西尔</td><td>セシル</td><td>♂</td><td>Ⅴ</td><td>1033</td><td>189</td><td>63</td><td>46</td><td>45</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>欧拉</td><td>强斩</td><td>金币任务</td></tr>
+	<tr><td>FF4</td><td>139</td><td bgcolor="orange">莉迪亚</td><td>リディア</td><td>♀</td><td>Ⅴ</td><td>631</td><td>89</td><td>217</td><td>30</td><td>60</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td bgcolor="orange">4.8</td><td>1.0</td><td>魔棒</td><td>AF</td><td>连续魔</td><td>巴哈姆特</td><td>&nbsp;</td></tr>
+	<tr><td>FF4</td><td>140</td><td bgcolor="orange">凯因</td><td>カイン</td><td>♂</td><td>Ⅴ</td><td>1054</td><td>165</td><td>28</td><td>177</td><td>37</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>OP</td><td>HP吸收</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>FF7</td><td>141</td><td bgcolor="orange">凯特西</td><td>ケット・シー</td><td>♂</td><td>Ⅴ</td><td>654</td><td>119</td><td>44</td><td>118</td><td>141</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>乐器</td><td>唱歌</td><td>见破</td><td>老虎机</td><td>&nbsp;</td></tr>
+	<tr><td>FF13</td><td>142</td><td bgcolor="orange">斯诺</td><td>スノウ</td><td>♂</td><td>Ⅴ</td><td>1611</td><td>177</td><td>28</td><td>46</td><td>91</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>保护</td><td>蓄力</td><td>前冲</td><td>&nbsp;</td></tr>
+	<tr><td>FF3</td><td>143</td><td bgcolor="orange">蕾菲亚</td><td>レフィア</td><td>♀</td><td>Ⅴ</td><td>861</td><td>146</td><td>168</td><td>85</td><td>96</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>引雷</td><td>欧拉<br/>见破</td><td>算术</td><td>&nbsp;</td></tr>
+	<tr><td>FFT</td><td>144</td><td bgcolor="yellow">迪利塔</td><td>ディリータ</td><td>♂</td><td>Ⅴ</td><td>1483</td><td>201</td><td>158</td><td>57</td><td>38</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>欧拉</td><td>算术</td><td>EXA</td></tr>
+	<tr><td>FF3</td><td>145</td><td bgcolor="lightgreen">鲁内斯</td><td>ルーネス</td><td>♂</td><td>Ⅴ</td><td>1294</td><td>154</td><td>81</td><td>32</td><td>36</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>HP吸收</td><td>乱击</td><td>金币任务</td></tr>
+	<tr><td>FF3</td><td>146</td><td bgcolor="orange">阿尔克</td><td>アルクゥ</td><td>♂</td><td>Ⅴ</td><td>805</td><td>141</td><td>185</td><td>103</td><td>68</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>魔力之泉</td><td>調合<br/>见破</td><td>算术</td><td>&nbsp;</td></tr>
+	<tr><td>FF3</td><td>147</td><td bgcolor="lightgreen">因古斯</td><td>イングズ</td><td>♂</td><td>Ⅴ</td><td>477</td><td>212</td><td>145</td><td>49</td><td>35</td><td>1.0</td><td bgcolor="orange">1.5</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>斧</td><td>魔力之泉</td><td>暗黑剑</td><td>强斩</td><td>金币任务</td></tr>
+	<tr><td>FF6</td><td>148</td><td bgcolor="orange">莫古</td><td>モグ</td><td>♂</td><td>Ⅴ</td><td>1176</td><td>159</td><td>47</td><td>58</td><td>118</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>OP</td><td>跳舞</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>FF1</td><td>149</td><td bgcolor="orange">塞拉公主</td><td>セーラ</td><td>♀</td><td>Ⅴ</td><td>491</td><td>102</td><td>194</td><td>22</td><td>190</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>乐器</td><td>唱歌</td><td>欧拉</td><td>话术</td><td>&nbsp;</td></tr>
+	<tr><td>FFCC-RF</td><td>150</td><td bgcolor="orange">尤利</td><td>ユーリィ</td><td>♂</td><td>Ⅴ</td><td>1162</td><td>183</td><td>63</td><td>83</td><td>106</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>蓄力</td><td>乱击</td><td>&nbsp;</td></tr>
+	
+	
+	<tr><td>FF2</td><td>151</td><td bgcolor="yellow">雷恩哈特</td><td>レオンハルト</td><td>♂</td><td>Ⅴ</td><td>1458</td><td>204</td><td>50</td><td>74</td><td>112</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>暗黑剑</td><td>前冲</td><td>EXA</td></tr>
+	<tr><td>FF11</td><td>156</td><td bgcolor="lightgreen">香托托</td><td>シャントット</td><td>♀</td><td>Ⅴ</td><td>609</td><td>86</td><td>228</td><td>44</td><td>39</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>魔力之泉</td><td>连续魔</td><td>核融</td><td>金币任务</td></tr>
+	<tr><td>FF11</td><td>157</td><td bgcolor="orange">库利尔拉</td><td>クリルラ</td><td>♀</td><td>Ⅴ</td><td>1439</td><td>155</td><td>95</td><td>38</td><td>60</td><td>1.0</td><td bgcolor="orange">1.5</td><td>1.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>欧拉</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF11</td><td>158</td><td bgcolor="orange">菖蒲</td><td>アヤメ</td><td>♀</td><td>Ⅴ</td><td>633</td><td>228</td><td>31</td><td>26</td><td>106</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>刀</td><td>OP</td><td>奥义</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF7</td><td>159</td><td bgcolor="orange">爱丽丝</td><td>エアリス</td><td>♀</td><td>Ⅴ</td><td>743</td><td>86</td><td>205</td><td>168</td><td>151</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>女神的祝福</td><td>连续魔</td><td>神圣</td><td>&nbsp;</td></tr>
+	<tr><td>FF14</td><td>160</td><td bgcolor="orange">敏菲利亚</td><td>ミンフィリア</td><td>♀</td><td>Ⅴ</td><td>603</td><td>108</td><td>166</td><td>99</td><td>96</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.5</td><td bgcolor="orange">1.7</td><td>2.3</td><td>1.0</td><td>波动</td><td>女神的祝福</td><td>欧拉</td><td>话术</td><td>&nbsp;</td></tr>
+	<tr><td>FF2</td><td>161</td><td bgcolor="orange">敏武</td><td>ミンウ</td><td>♂</td><td>Ⅴ</td><td>800</td><td>93</td><td>230</td><td>71</td><td>53</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>女神的祝福</td><td>欧拉</td><td>神圣</td><td>&nbsp;</td></tr>
+	<tr><td>FF13</td><td>162</td><td bgcolor="yellow">娜芭特</td><td>ナバート</td><td>♀</td><td>Ⅴ</td><td>1113</td><td>196</td><td>222</td><td>116</td><td>103</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>剑</td><td>魔力之泉</td><td>连续魔</td><td>乱击</td><td>EXA</td></tr>
+	<tr><td>FFTA2</td><td>163</td><td bgcolor="orange">鲁索</td><td>ルッソ</td><td>♂</td><td>Ⅴ</td><td>1107</td><td>188</td><td>158</td><td>68</td><td>45</td><td>1.0</td><td bgcolor="orange">1.5</td><td bgcolor="orange">1.5</td><td>2.3</td><td>1.0</td><td>剑</td><td>OP</td><td>连续魔</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>FF7DC</td><td>164</td><td bgcolor="orange">谢尔克</td><td>シェルク</td><td>♀</td><td>Ⅴ</td><td>958</td><td>193</td><td>87</td><td>124</td><td>22</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>引雷</td><td>狂暴</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>FF13</td><td>165</td><td bgcolor="orange">霍普</td><td>ホープ</td><td>♂</td><td>Ⅴ</td><td>673</td><td>147</td><td>208</td><td>121</td><td>41</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td bgcolor="orange">2.5</td><td>投掷</td><td>魔力之泉</td><td>连续魔</td><td>彗星</td><td>&nbsp;</td></tr>
+	<tr><td>FF7</td><td>170</td><td bgcolor="#cc99ff">萨菲罗斯</td><td>セフィロス</td><td>♂</td><td>Ⅴ</td><td>1242</td><td>190</td><td>166</td><td>164</td><td>203</td><td>1.0</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>刀</td><td>分身</td><td>奥义</td><td>居合斩</td><td>混沌限定池</td></tr>
+	<tr><td>FF2</td><td>171</td><td bgcolor="#cc99ff">皇帝</td><td>皇帝</td><td>♂</td><td>Ⅴ</td><td>1065</td><td>171</td><td>244</td><td>111</td><td>89</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>引雷</td><td>连续魔<br/>见破</td><td>核融</td><td>混沌限定池</td></tr>
+	<tr><td>FF4</td><td>172</td><td bgcolor="#cc99ff">泽姆斯</td><td>ゼムス</td><td>♂</td><td>Ⅴ</td><td>1178</td><td>104</td><td>290</td><td>47</td><td>37</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>魔力之泉</td><td>连续魔</td><td>核融</td><td>混沌限定池</td></tr>
+	<tr><td>零式</td><td>173</td><td bgcolor="yellow">暮雨</td><td>クラサメ</td><td>♂</td><td>Ⅴ</td><td>1167</td><td>198</td><td>226</td><td>153</td><td>45</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>剑</td><td>保护</td><td>连续魔</td><td>居合斩</td><td>EXA</td></tr>
+	<tr><td>零式</td><td>174</td><td bgcolor="orange">马奇纳</td><td>マキナ</td><td>♂</td><td>Ⅴ</td><td>1285</td><td>208</td><td>73</td><td>47</td><td>22</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>狂暴</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>零式</td><td>175</td><td bgcolor="orange">雷姆</td><td>レム</td><td>♀</td><td>Ⅴ</td><td>723</td><td>155</td><td>197</td><td>145</td><td>36</td><td>1.0</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>短剑</td><td>女神的祝福</td><td>跳舞</td><td>神圣</td><td>&nbsp;</td></tr>
+	<tr><td>零式</td><td>176</td><td bgcolor="lightgreen">Deuce</td><td>デュース</td><td>♀</td><td>Ⅴ</td><td>460</td><td>87</td><td>169</td><td>74</td><td>43</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>乐器</td><td>唱歌</td><td>连续魔</td><td>话术</td><td>金币任务</td></tr>
+	<tr><td>FF6</td><td>177</td><td bgcolor="orange">影忍</td><td>シャドウ</td><td>♂</td><td>Ⅴ</td><td>989</td><td>191</td><td>56</td><td>155</td><td>82</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>刀</td><td>分身</td><td>投掷</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>FFT</td><td>178</td><td bgcolor="orange">奥尔兰都</td><td>オルランドゥ</td><td>♂</td><td>Ⅴ</td><td>1504</td><td>174</td><td>126</td><td>64</td><td>68</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>暗黑剑</td><td>前冲</td><td>&nbsp;</td></tr>
+	<tr><td>FF4</td><td>179</td><td bgcolor="orange">罗莎</td><td>ローザ</td><td>♀</td><td>Ⅴ</td><td>979</td><td>126</td><td>184</td><td>48</td><td>137</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.5</td><td>弓</td><td>狙击</td><td>欧拉</td><td>神圣</td><td>&nbsp;</td></tr>
+	<tr><td>FF7BC</td><td>180</td><td bgcolor="yellow">西斯内</td><td>シスネ</td><td>♀</td><td>Ⅴ</td><td>1066</td><td>173</td><td>79</td><td>148</td><td>168</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>投掷</td><td>分身</td><td>投掷</td><td>乱击</td><td>EXA</td></tr>
+	<tr><td>零式</td><td>181</td><td bgcolor="orange">Queen</td><td>クイーン</td><td>♀</td><td>Ⅴ</td><td>940</td><td>165</td><td>203</td><td>55</td><td>127</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>魔力之泉</td><td>狂暴</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF5</td><td>182</td><td bgcolor="orange">加拉夫</td><td>ガラフ</td><td>♂</td><td>Ⅴ</td><td>1850</td><td>168</td><td>41</td><td>49</td><td>45</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>真言</td><td>蓄力</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF13</td><td>183</td><td bgcolor="orange">萨兹</td><td>サッズ</td><td>♂</td><td>Ⅴ</td><td>1454</td><td>171</td><td>31</td><td>40</td><td>51</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>铳</td><td>狙击</td><td>速射</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF7AC</td><td>184</td><td bgcolor="orange">克劳德</td><td>クラウド</td><td>♂</td><td>Ⅴ</td><td>1104</td><td>178</td><td>175</td><td>120</td><td>74</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>魔法剑</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FFCC-ET</td><td>185</td><td bgcolor="orange">谢尔洛塔</td><td>シェルロッタ</td><td>♀</td><td>Ⅴ</td><td>732</td><td>155</td><td>183</td><td>64</td><td>133</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>魔力之泉</td><td>投掷</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>零式</td><td>186</td><td bgcolor="orange">Nine</td><td>ナイン</td><td>♂</td><td>Ⅴ</td><td>1611</td><td>155</td><td>26</td><td>49</td><td>72</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>真言</td><td>蓄力</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>零式</td><td>187</td><td bgcolor="#cc99ff">元帅希德</td><td>元帥シド</td><td>♂</td><td>Ⅴ</td><td>1356</td><td>219</td><td>178</td><td>147</td><td>35</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>刀</td><td>炮击</td><td>調合</td><td>算术</td><td>混沌限定池</td></tr>
+	<tr><td>FF8</td><td>188</td><td bgcolor="yellow">伊迪亚</td><td>イデア</td><td>♀</td><td>Ⅴ</td><td>892</td><td>126</td><td>261</td><td>89</td><td>27</td><td>1.0</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>魔力之泉</td><td>连续魔<br/>见破</td><td>核融</td><td>EXA</td>
+	<tr><td>FF10</td><td>189</td><td bgcolor="orange">瓦卡</td><td>ワッカ</td><td>♂</td><td>Ⅴ</td><td>1193</td><td>153</td><td>34</td><td>115</td><td>81</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>投掷</td><td>保护</td><td>HP吸收</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>DFF</td><td>190</td><td bgcolor="orange">洋葱剑士</td><td>オニオンナイト</td><td>♂</td><td>Ⅴ</td><td>805</td><td>141</td><td>167</td><td>147</td><td>143</td><td>1.0</td><td bgcolor="orange">1.7</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>魔力之泉</td><td>投掷</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF12</td><td>191</td><td bgcolor="orange">巴修</td><td>バッシュ</td><td>♂</td><td>Ⅴ</td><td>1187</td><td>193</td><td>81</td><td>88</td><td>35</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>欧拉</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF11</td><td>192</td><td bgcolor="orange">普利修</td><td>プリッシュ</td><td>♀</td><td>Ⅴ</td><td>862</td><td>167</td><td>166</td><td>148</td><td>27</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>真言</td><td>蓄力</td><td>神圣</td><td>&nbsp;</td></tr>
+	<tr><td>FFTA</td><td>193</td><td bgcolor="orange">利兹</td><td>リッツ</td><td>♀</td><td>Ⅴ</td><td>769</td><td>143</td><td>201</td><td>148</td><td>45</td><td>1.0</td><td bgcolor="orange">1.7</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>分身</td><td>连续魔</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>FF6</td><td>194</td><td bgcolor="yellow">雷奥将军</td><td>レオ将軍</td><td>♂</td><td>Ⅴ</td><td>1892</td><td>196</td><td>48</td><td>97</td><td>45</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>奥义</td><td>乱击</td><td>EXA</td></tr>
+	<tr><td>FF4TA</td><td>195</td><td bgcolor="orange">希奥多尔</td><td>セオトア</td><td>♂</td><td>Ⅴ</td><td>1017</td><td>162</td><td>138</td><td>157</td><td>83</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>欧拉</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>FF10</td><td>196</td><td bgcolor="orange">露露</td><td>ルールー</td><td>♀</td><td>Ⅴ</td><td>783</td><td>96</td><td>234</td><td>26</td><td>52</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>保护</td><td>连续魔</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>FF10</td><td>197</td><td bgcolor="#cc99ff">杰克特</td><td>ジェクト</td><td>♂</td><td>Ⅴ</td><td>1353</td><td>235</td><td>83</td><td>159</td><td>127</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>狂暴</td><td>强斩</td><td>混沌限定池</td></tr>
+	<tr><td>零式</td><td>198</td><td bgcolor="orange">Eight</td><td>エイト</td><td>♂</td><td>Ⅴ</td><td>894</td><td>178</td><td>84</td><td>207</td><td>55</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>分身</td><td>蓄力</td><td>前冲</td><td>&nbsp;</td></tr>
+	<tr><td>FF2</td><td>199</td><td bgcolor="orange">蕾拉</td><td>レイラ</td><td>♀</td><td>Ⅴ</td><td>932</td><td>139</td><td>152</td><td>170</td><td>93</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>短剑</td><td>引雷</td><td>投掷</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>FF7CC</td><td>200</td><td bgcolor="orange">扎克斯</td><td>ザックス</td><td>♂</td><td>Ⅴ</td><td>1077</td><td>194</td><td>44</td><td>149</td><td>50</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>奥义</td><td>强斩</td><td>&nbsp;</td></tr>
+	
+	
+	<tr><td>FF12RW</td><td>201</td><td bgcolor="orange">琉德</td><td>リュド</td><td>♂</td><td>Ⅴ</td><td>1023</td><td>206</td><td>39</td><td>67</td><td>43</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>真言</td><td>HP吸收</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>FF9</td><td>202</td><td bgcolor="orange">阿馋</td><td>クイナ</td><td>♀</td><td>Ⅴ</td><td>1334</td><td>145</td><td>57</td><td>41</td><td>178</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>狙击</td><td>HP吸收</td><td>敌之技</td><td>&nbsp;</td></tr>
+	<tr><td>FF7</td><td>203</td><td bgcolor="yellow">鲁法斯</td><td>ルーファウス</td><td>♂</td><td>Ⅴ</td><td>961</td><td>214</td><td>167</td><td>56</td><td>100</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>铳</td><td>狙击</td><td>調合</td><td>算术</td><td>EXA</td></tr>
+	<tr><td>零式</td><td>204</td><td bgcolor="orange">King</td><td>キング</td><td>♂</td><td>Ⅴ</td><td>810</td><td>162</td><td>65</td><td>28</td><td>156</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>铳</td><td>狙击</td><td>調合</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FFRK</td><td>205</td><td bgcolor="lightgreen">弟子</td><td>デシ</td><td>♂</td><td>Ⅴ</td><td>645</td><td>140</td><td>151</td><td>54</td><td>52</td><td>1.0</td><td bgcolor="orange">1.5</td><td bgcolor="orange">2.0</td><td bgcolor="orange">2.3</td><td>1.0</td><td>波动</td><td>AF</td><td>欧拉<br/>见破</td><td>核融</td><td>金币任务</td>
+	<tr><td>FF7CC</td><td>206</td><td bgcolor="orange">蒂法</td><td>ティファ</td><td>♀</td><td>Ⅴ</td><td>941</td><td>164</td><td>49</td><td>142</td><td>163</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>OP</td><td>狂暴</td><td>老虎机</td><td>&nbsp;</td></tr>
+	<tr><td>FF6</td><td>207</td><td bgcolor="#cc99ff">杰夫卡</td><td>ケフカ</td><td>♂</td><td>Ⅴ</td><td>960</td><td>167</td><td>229</td><td>151</td><td>125</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>魔力之泉</td><td>连续魔</td><td>乱击</td><td>混沌限定池</td></tr>
+	<tr><td>FF8</td><td>208</td><td bgcolor="lightgreen">风神</td><td>風神</td><td>♀</td><td>Ⅴ</td><td>401</td><td>128</td><td>149</td><td>30</td><td>43</td><td>1.0</td><td bgcolor="orange">1.5</td><td bgcolor="orange">1.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>投掷</td><td>分身</td><td>欧拉</td><td>乱击</td><td>超难任务</td></tr>
+	<tr><td>FF8</td><td>209</td><td bgcolor="lightgreen">雷神</td><td>雷神</td><td>♂</td><td>Ⅴ</td><td>687</td><td>135</td><td>30</td><td>32</td><td>87</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>引雷</td><td>奥义</td><td>前冲</td><td>超难任务</td></tr>
+	<tr><td>FFTA</td><td>210</td><td bgcolor="orange">马修</td><td>マーシュ</td><td>♂</td><td>Ⅴ</td><td>1111</td><td>180</td><td>155</td><td>132</td><td>62</td><td>1.0</td><td bgcolor="orange">1.5</td><td bgcolor="orange">1.5</td><td bgcolor="orange">3.8</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>魔法剑</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>零式</td><td>211</td><td bgcolor="orange">Cater</td><td>ケイト</td><td>♀</td><td>Ⅴ</td><td>765</td><td>157</td><td>157</td><td>150</td><td>35</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td bgcolor="orange">2.5</td><td>铳</td><td>狙击</td><td>连续魔</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF7</td><td>212</td><td bgcolor="orange">赤红十三</td><td>レッドⅩⅢ</td><td>♂</td><td>Ⅴ</td><td>1072</td><td>155</td><td>171</td><td>120</td><td>40</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>魔力之泉</td><td>狂暴</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>FFCC-CB</td><td>213</td><td bgcolor="orange">雷伊尔</td><td>レイル</td><td>♂</td><td>Ⅴ</td><td>953</td><td>197</td><td>91</td><td>54</td><td>151</td><td>1.0</td><td>1.0</td><td bgcolor="orange">1.5</td><td>1.0</td><td>1.0</td><td>波动</td><td>保护</td><td>投掷</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>MFF</td><td>214</td><td bgcolor="orange">沃尔</td><td>ウォル</td><td>♂</td><td>Ⅴ</td><td>1077</td><td>185</td><td>139</td><td>112</td><td>49</td><td>1.0</td><td>1.0</td><td bgcolor="orange">1.5</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>魔法剑<br/>见破</td><td>乱击</td><td>&nbsp;</td>
+	<tr><td>MFF</td><td>215</td><td bgcolor="orange">加兰德</td><td>ガーランド</td><td>♂</td><td>Ⅴ</td><td>1223</td><td>203</td><td>145</td><td>59</td><td>83</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>HP吸收</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>MFF</td><td>216</td><td bgcolor="lightgreen">艾可</td><td>エコー</td><td>♀</td><td>Ⅴ</td><td>366</td><td>141</td><td>179</td><td>134</td><td>111</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>女神的祝福</td><td>跳舞</td><td>老虎机</td><td>金币任务</td></tr>
+	<tr><td>MFF</td><td>217</td><td bgcolor="lightgreen">塞拉</td><td>セーラ</td><td>♀</td><td>Ⅴ</td><td>405</td><td>76</td><td>173</td><td>36</td><td>78</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>女神的祝福</td><td>欧拉</td><td>神圣</td><td>金币任务</td></tr>
+	<tr><td>FF13</td><td>218</td><td bgcolor="yellow">雷因兹</td><td>レインズ</td><td>♂</td><td>Ⅴ</td><td>1321</td><td>203</td><td>210</td><td>99</td><td>60</td><td>1.0</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>剑</td><td>魔力之泉</td><td>欧拉</td><td>前冲</td><td>EXA</td></tr>
+	<tr><td>DFF</td><td>219</td><td bgcolor="orange">巴兹</td><td>バッツ</td><td>♂</td><td>Ⅴ</td><td>984</td><td>175</td><td>37</td><td>87</td><td>164</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>分身</td><td>跳舞</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF3</td><td>220</td><td bgcolor="lightgreen">多加</td><td>ドーガ</td><td>♂</td><td>Ⅴ</td><td>286</td><td>79</td><td>151</td><td>40</td><td>34</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>魔力之泉</td><td>连续魔</td><td>核融</td><td>超难任务</td></tr>
+	<tr><td>FF3</td><td>221</td><td bgcolor="lightgreen">乌内</td><td>ウネ</td><td>♀</td><td>Ⅴ</td><td>344</td><td>72</td><td>138</td><td>32</td><td>43</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>魔力之泉</td><td>连续魔</td><td>神圣</td><td>超难任务</td></tr>
+	<tr><td>FFTA2</td><td>222</td><td bgcolor="orange">艾迪尔</td><td>アデル</td><td>♀</td><td>Ⅴ</td><td>761</td><td>169</td><td>179</td><td>162</td><td>56</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>短剑</td><td>分身</td><td>欧拉</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>FF13-2</td><td>223</td><td bgcolor="#cc99ff">凯厄斯</td><td>カイアス</td><td>♂</td><td>Ⅴ</td><td>1582</td><td>211</td><td>179</td><td>148</td><td>112</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td bgcolor="orange">5.8</td><td>1.0</td><td>骑士剑</td><td>AF</td><td>奥义</td><td>巴哈姆特</td><td>混沌限定池</td></tr>
+	<tr><td>零式</td><td>224</td><td bgcolor="orange">Jack</td><td>ジャック</td><td>♂</td><td>Ⅴ</td><td>769</td><td>221</td><td>42</td><td>22</td><td>80</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>刀</td><td>分身</td><td>蓄力</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF4</td><td>225</td><td bgcolor="orange">福斯雅</td><td>フースーヤ</td><td>♂</td><td>Ⅴ</td><td>562</td><td>97</td><td>228</td><td>24</td><td>77</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>魔力之泉</td><td>欧拉<br/>见破</td><td>神圣</td><td>&nbsp;</td>
+	<tr><td>FF7</td><td>226</td><td bgcolor="orange">巴瑞特</td><td>バレット</td><td>♂</td><td>Ⅴ</td><td>1774</td><td>162</td><td>56</td><td>28</td><td>67</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>铳</td><td>保护</td><td>蓄力</td><td>前冲</td><td>&nbsp;</td></tr>
+	<tr><td>FF11</td><td>227</td><td bgcolor="orange">莉莉洁特</td><td>リリゼット</td><td>♀</td><td>Ⅴ</td><td>891</td><td>140</td><td>42</td><td>122</td><td>176</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>短剑</td><td>OP</td><td>跳舞</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>时空水晶</td><td>228</td><td bgcolor="orange">图莫罗</td><td>トゥモロ</td><td>♂</td><td>Ⅴ</td><td>994</td><td>194</td><td>76</td><td>51</td><td>91</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">4.8</td><td>1.0</td><td>剑</td><td>AF</td><td>蓄力</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>时空水晶</td><td>229</td><td bgcolor="lightgreen">艾茉</td><td>エモ</td><td>♀</td><td>Ⅴ</td><td>384</td><td>101</td><td>190</td><td>26</td><td>53</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td bgcolor="orange">4.0</td><td>1.0</td><td>杖</td><td>唱歌</td><td>连续魔</td><td>核融</td><td>金币任务</td></tr>
+	<tr><td>时空水晶</td><td>230</td><td bgcolor="yellow">不死王</td><td>不死王</td><td>♂</td><td>Ⅴ</td><td>1229</td><td>191</td><td>230</td><td>109</td><td>113</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>剑</td><td>魔力之泉</td><td>暗黑剑</td><td>强斩</td><td>EXA</td></tr>
+	<tr><td>时空水晶</td><td>231</td><td bgcolor="orange">安玖</td><td>アンジュ</td><td>♀</td><td>Ⅴ</td><td>719</td><td>83</td><td>218</td><td>82</td><td>54</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td>1.0</td><td bgcolor="orange">4.8 </td><td>1.0</td><td>魔棒</td><td>唱歌</td><td>连续魔<br/>见破</td><td>神圣</td><td>&nbsp;</td>
+	<tr><td>FF4</td><td>232</td><td bgcolor="orange">杨</td><td>ヤン</td><td>♂</td><td>Ⅴ</td><td>1045</td><td>228</td><td>63</td><td>26</td><td>25</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>真言</td><td>蓄力</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF2</td><td>233</td><td bgcolor="orange">约瑟夫</td><td>ヨーゼフ</td><td>♂</td><td>Ⅴ</td><td>1184</td><td>199</td><td>31</td><td>117</td><td>47</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>保护</td><td>奥义</td><td>前冲</td><td>&nbsp;</td></tr>
+	<tr><td>FF3</td><td>234</td><td bgcolor="#cc99ff">暗黑之云</td><td>暗闇の雲</td><td>♀</td><td>Ⅴ</td><td>946</td><td>171</td><td>240</td><td>155</td><td>44</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>魔力之泉</td><td>速射</td><td>核融</td><td>混沌限定池</td></tr>
+	<tr><td>FF7CC</td><td>235</td><td bgcolor="lightgreen">安吉尔</td><td>アンジール</td><td>♂</td><td>Ⅴ</td><td>857</td><td>142</td><td>46</td><td>32</td><td>27</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>蓄力</td><td>前冲</td><td>超难任务</td></tr>
+	<tr><td>FF7CC</td><td>236</td><td bgcolor="lightgreen">杰内西斯</td><td>ジェネシス</td><td>♂</td><td>Ⅴ</td><td>626</td><td>132</td><td>50</td><td>93</td><td>56</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>狂暴</td><td>居合斩</td><td>超难任务</td></tr>
+	<tr><td>FF4</td><td>237</td><td bgcolor="orange">塞西尔</td><td>セシル</td><td>♂</td><td>Ⅴ</td><td>777</td><td>233</td><td>42</td><td>125</td><td>31</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>暗黑剑</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF5</td><td>238</td><td bgcolor="#cc0000"> <font color="white">吉尔加美什</font></td><td>ギルガメシュ</td><td>♂</td><td>Ⅲ</td><td>详见专页</td><td>详见专页</td><td>详见专页</td><td>详见专页</td><td>详见专页</td><td>详见专页</td><td>详见专页</td><td>详见专页</td><td>详见专页</td><td>详见专页</td><td>全可</td><td>全可</td><td>全可</td><td>全可</td><td>Rank 50<br/>特殊任务</td></tr>
+	<tr><td>FF13-2</td><td>239</td><td bgcolor="orange">雷霆</td><td>ライトニング</td><td>♀</td><td>Ⅴ</td><td>991</td><td>185</td><td>183</td><td>124</td><td>43</td><td>1.0</td><td bgcolor="orange">1.7</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>女神的祝福</td><td>欧拉</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>零式</td><td>240</td><td bgcolor="orange">Sice</td><td>サイス</td><td>♀</td><td>Ⅴ</td><td>841</td><td>217</td><td>93</td><td>39</td><td>137</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>斧</td><td>OP</td><td>暗黑剑</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF2</td><td>241</td><td bgcolor="orange">哥顿</td><td>ゴードン</td><td>♂</td><td>Ⅴ</td><td>1195</td><td>162</td><td>155</td><td>60</td><td>56</td><td>1.0</td><td bgcolor="orange">1.7</td><td bgcolor="orange">1.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>魔力之泉</td><td>欧拉</td><td>彗星</td><td>&nbsp;</td></tr>
+	<tr><td>FF7AC</td><td>242</td><td bgcolor="yellow">卡丹裘</td><td>カダージュ</td><td>♂</td><td>Ⅴ</td><td>963</td><td>184</td><td>165</td><td>143</td><td>147</td><td>1.0</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>刀</td><td>分身</td><td>奥义</td><td>乱击</td><td>EXA</td></tr>
+	<tr><td>FF4TA</td><td>243</td><td bgcolor="orange">月轮</td><td>ツキノワ</td><td>♂</td><td>Ⅴ</td><td>783</td><td>148</td><td>44</td><td>220</td><td>84</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>刀</td><td>分身</td><td>調合</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>FF12</td><td>244</td><td bgcolor="#cc99ff">维因</td><td>ヴェイン</td><td>♂</td><td>Ⅴ</td><td>1739</td><td>234</td><td>191</td><td>83</td><td>105</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>OP</td><td>奥义</td><td>算术</td><td>混沌限定池</td></tr>
+	<tr><td>FF9</td><td>245</td><td bgcolor="#cc99ff">永恒之暗</td><td>永遠の闇</td><td>♂<br/>♀</td><td>Ⅴ</td><td>1372</td><td>252</td><td>139</td><td>112</td><td>62</td><td>1.0</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>OP</td><td>蓄力</td><td>彗星</td><td>混沌限定池</td></tr>
+	<tr><td>FFT</td><td>246</td><td bgcolor="#cc99ff">圣天使阿鲁提玛</td><td>聖天使アルテマ</td><td>♀</td><td>Ⅴ</td><td>1047</td><td>231</td><td>138</td><td>117</td><td>160</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>剑</td><td>魔力之泉</td><td>狂暴</td><td>居合斩</td><td>混沌限定池</td></tr>
+	<tr><td>FF11</td><td>247</td><td bgcolor="lightgreen">卡姆拉纳特</td><td>カムラナート</td><td>♂</td><td>Ⅴ</td><td>672</td><td>127</td><td>61</td><td>32</td><td>75</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>真言</td><td>魔法剑</td><td>强斩</td><td>超难任务</td></tr>
+	<tr><td>FF11</td><td>248</td><td bgcolor="lightgreen">艾尔德纳修</td><td>エルドナーシュ</td><td>♂</td><td>Ⅴ</td><td>320</td><td>65</td><td>157</td><td>38</td><td>35</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>魔力之泉</td><td>连续魔</td><td>核融</td><td>超难任务</td></tr>
+	<tr><td>FF14</td><td>249</td><td bgcolor="orange">于里昂热</td><td>ウリエンジェ</td><td>♂</td><td>Ⅴ</td><td>669</td><td>111</td><td>218</td><td>40</td><td>26</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td bgcolor="orange">4.0</td><td>1.0</td><td>波动</td><td>AF</td><td>连续魔<br/>见破</td><td>算术</td><td>&nbsp;</td>
+	<tr><td>FFT</td><td>250</td><td bgcolor="orange">拉姆萨</td><td>ラムザ</td><td>♂</td><td>Ⅴ</td><td>1111</td><td>195</td><td>54</td><td>112</td><td>85</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>保护</td><td>蓄力</td><td>前冲</td><td>&nbsp;</td></tr>
+
+	
+	<tr><td>FF4TA</td><td>251</td><td bgcolor="orange">雷欧诺拉</td><td>レオノーラ</td><td>♀</td><td>Ⅴ</td><td>766</td><td>110</td><td>235</td><td>38</td><td>99</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>女神的祝福</td><td>连续魔<br/>见破</td><td>神圣</td><td>&nbsp;</td>
+	<tr><td>FF6</td><td>252</td><td bgcolor="orange">塞利斯</td><td>セリス</td><td>♀</td><td>Ⅴ</td><td>634</td><td>152</td><td>190</td><td>49</td><td>80</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>乐器</td><td>唱歌</td><td>魔法剑</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>PFF</td><td>253</td><td bgcolor="pink">情人节莉诺雅</td><td>バレンタインリノア</td><td>♀</td><td>Ⅲ</td><td>186</td><td>89</td><td>89</td><td>22</td><td>55</td><td>1.0</td><td bgcolor="orange">1.5</td><td bgcolor="orange">1.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>投掷</td><td>魔力之泉</td><td>狂暴</td><td>核融</td><td>情人节活动</td></tr>
+	<tr><td>FF8</td><td>254</td><td bgcolor="orange">亚维恩</td><td>アーヴァイン</td><td>♂</td><td>Ⅴ</td><td>700</td><td>169</td><td>46</td><td>114</td><td>191</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>铳</td><td>狙击</td><td>速射</td><td>前冲</td><td>&nbsp;</td></tr>
+	<tr><td>FF11</td><td>255</td><td bgcolor="orange">莱恩</td><td>ライオン</td><td>♀</td><td>Ⅴ</td><td>802</td><td>211</td><td>41</td><td>131</td><td>32</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>短剑</td><td>分身</td><td>投掷</td><td>前冲</td><td>&nbsp;</td></tr>
+	<tr><td>FFT</td><td>256</td><td bgcolor="yellow">梅丽亚多尔</td><td>メリアドール</td><td>♀</td><td>Ⅴ</td><td>1278</td><td>218</td><td>54</td><td>118</td><td>140</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>蓄力</td><td>强斩</td><td>EXA</td></tr>
+	<tr><td>FF4</td><td>257</td><td bgcolor="orange">泰拉</td><td>テラ</td><td>♂</td><td>Ⅴ</td><td>611</td><td>124</td><td>224</td><td>28</td><td>39</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>魔力之泉</td><td>连续魔<br/>见破</td><td>算术</td><td>&nbsp;</td>
+	<tr><td>FF11</td><td>258</td><td bgcolor="orange">阿芙玛</td><td>アフマウ</td><td>♀</td><td>Ⅴ</td><td>776</td><td>156</td><td>205</td><td>49</td><td>105</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>真言</td><td>欧拉</td><td>话术</td><td>&nbsp;</td></tr>
+	<tr><td>FF12</td><td>259</td><td bgcolor="lightgreen">拉萨</td><td>ラーサー</td><td>♂</td><td>Ⅴ</td><td>571</td><td>120</td><td>128</td><td>111</td><td>23</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>剑</td><td>真言</td><td>調合</td><td>算术</td><td>超难任务</td></tr>
+	<tr><td>FFCC-LK</td><td>260</td><td bgcolor="orange">雷奥</td><td>レオ</td><td>♂</td><td>Ⅴ</td><td>557</td><td>141</td><td>177</td><td>117</td><td>119</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>炮击</td><td>調合</td><td>老虎机</td><td>&nbsp;</td></tr>
+	<tr><td>FFTA2</td><td>261</td><td bgcolor="orange">弗丽梅尔达</td><td>フリメルダ</td><td>♀</td><td>Ⅴ</td><td>755</td><td>216</td><td>63</td><td>24</td><td>111</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>HP吸收</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF8</td><td>262</td><td bgcolor="#cc99ff">阿尔迪米西亚</td><td>アルティミシア</td><td>♀</td><td>Ⅴ</td><td>791</td><td>221</td><td>228</td><td>58</td><td>162</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>魔力之泉</td><td>HP吸收</td><td>彗星</td><td>混沌限定池</td></tr>
+	<tr><td>零式</td><td>263</td><td bgcolor="orange">Cinque</td><td>シンク</td><td>♀</td><td>Ⅴ</td><td>1148</td><td>224</td><td>34</td><td>20</td><td>85</td><td>1.0</td><td>1.0</td><td bgcolor="orange">1.5</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>OP</td><td>蓄力</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>FFGM</td><td>264</td><td bgcolor="lightgreen">托里恩</td><td>トリオン</td><td>♂</td><td>Ⅴ</td><td>1425</td><td>136</td><td>105</td><td>28</td><td>52</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>欧拉</td><td>前冲</td><td>金币任务</td></tr>
+	<tr><td>时空水晶</td><td>265</td><td bgcolor="orange">利格</td><td>リーグ</td><td>♂</td><td>Ⅴ</td><td>1130</td><td>170</td><td>122</td><td>47</td><td>106</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">4.8</td><td bgcolor="orange">2.0</td><td>枪</td><td>AF</td><td>HP吸收</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>FF4TA</td><td>266</td><td bgcolor="orange">乌苏拉</td><td>アーシュラ</td><td>♀</td><td>Ⅴ</td><td>913</td><td>172</td><td>39</td><td>172</td><td>113</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>真言</td><td>奥义</td><td>前冲</td><td>&nbsp;</td></tr>
+	<tr><td>FFGM</td><td>267</td><td bgcolor="yellow">马特</td><td>マート</td><td>♂</td><td>Ⅴ</td><td>1017</td><td>201</td><td>189</td><td>116</td><td>77</td><td>1.0</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td bgcolor="orange">4.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>真言</td><td>欧拉</td><td>居合斩</td><td>EXA</td></tr>
+	<tr><td>零式</td><td>268</td><td bgcolor="orange">Seven</td><td>セブン</td><td>♀</td><td>Ⅴ</td><td>858</td><td>173</td><td>186</td><td>26</td><td>137</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>剑</td><td>魔力之泉</td><td>魔法剑</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF5</td><td>269</td><td bgcolor="#cc99ff">艾克斯迪斯</td><td>エクスデス</td><td>♂</td><td>Ⅴ</td><td>1802</td><td>219</td><td>192</td><td>36</td><td>80</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>魔力之泉</td><td>暗黑剑</td><td>居合斩</td><td>混沌限定池</td></tr>
+	<tr><td>FF4TA</td><td>270</td><td bgcolor="orange">月光</td><td>ゲッコウ</td><td>♂</td><td>Ⅴ</td><td>1544</td><td>183</td><td>42</td><td>125</td><td>97</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>斧</td><td>分身</td><td>投掷</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>FFCC-RF</td><td>271</td><td bgcolor="orange">纳修</td><td>ナッシュ</td><td>♂</td><td>Ⅴ</td><td>831</td><td>156</td><td>1</td><td>116</td><td>144</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>弓</td><td>OP</td><td>蓄力</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>FF11</td><td>272</td><td bgcolor="orange">阿歇拉</td><td>アシェラ</td><td>♀</td><td>Ⅴ</td><td>690</td><td>88</td><td>189</td><td>117</td><td>135</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>魔力之泉</td><td>欧拉</td><td>话术</td><td>&nbsp;</td></tr>
+	<tr><td>FF6</td><td>275</td><td bgcolor="orange">莉姆</td><td>リルム</td><td>♀</td><td>Ⅴ</td><td>624</td><td>96</td><td>196</td><td>119</td><td>39</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>魔力之泉</td><td>连续魔</td><td>敌之技</td><td>&nbsp;</td></tr>
+	<tr><td>FF10</td><td>276</td><td bgcolor="lightgreen">琉库</td><td>リュック</td><td>♀</td><td>Ⅴ</td><td>608</td><td>134</td><td>56</td><td>189</td><td>55</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>OP</td><td>調合</td><td>偷盗</td><td>金币任务</td></tr>
+	<tr><td>时空水晶</td><td>277</td><td bgcolor="orange">帕莱</td><td>パライ</td><td>♂</td><td>Ⅴ</td><td>1277</td><td>189</td><td>42</td><td>24</td><td>65</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">4.8</td><td>1.0</td><td>刀</td><td>AF</td><td>奥义</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>FFT</td><td>278</td><td bgcolor="orange">马拉克</td><td>マラーク</td><td>♂</td><td>Ⅴ</td><td>815</td><td>167</td><td>133</td><td>48</td><td>106</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>保护</td><td>连续魔</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF10</td><td>279</td><td bgcolor="yellow">布拉斯卡</td><td>ブラスカ</td><td>♂</td><td>Ⅴ</td><td>849</td><td>152</td><td>262</td><td>48</td><td>83</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td bgcolor="orange">5.1</td><td>1.0</td><td>杖</td><td>AF</td><td>欧拉</td><td>算术</td><td>EXA</td></tr>
+	<tr><td>零式</td><td>280</td><td bgcolor="orange">睦月</td><td>ムツキ</td><td>♀</td><td>Ⅴ</td><td>629</td><td>124</td><td>227</td><td>161</td><td>89</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td bgcolor="orange">2.5</td><td>投掷</td><td>狙击</td><td>調合</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>FF8</td><td>281</td><td bgcolor="orange">沃德</td><td>ウォード</td><td>♂</td><td>Ⅴ</td><td>1136</td><td>197</td><td>52</td><td>24</td><td>49</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>投掷</td><td>OP</td><td>蓄力</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF6</td><td>282</td><td bgcolor="orange">斯特拉格斯</td><td>ストラゴス</td><td>♂</td><td>Ⅴ</td><td>618</td><td>95</td><td>241</td><td>22</td><td>66</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>魔力之泉</td><td>连续魔</td><td>敌之技</td><td>&nbsp;</td></tr>
+	<tr><td>FF4</td><td>283</td><td bgcolor="lightgreen">西德</td><td>シド</td><td>♂</td><td>Ⅴ</td><td>612</td><td>189</td><td>32</td><td>22</td><td>24</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>斧</td><td>OP</td><td>蓄力<br/>见破</td><td>前冲</td><td>超难任务</td>
+	<tr><td>时空水晶</td><td>284</td><td bgcolor="orange">舞菜</td><td>マイナ</td><td>♀</td><td>Ⅴ</td><td>810</td><td>182</td><td>41</td><td>120</td><td>106</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">4.8</td><td>1.0</td><td>短剑</td><td>AF</td><td>投掷</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>FF11</td><td>285</td><td bgcolor="#cc99ff">暗王</td><td>闇の王</td><td>♂</td><td>Ⅴ</td><td>1442</td><td>215</td><td>237</td><td>61</td><td>145</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>暗黑剑</td><td>前冲</td><td>混沌限定池</td></tr>
+	<tr><td>FF8</td><td>288</td><td bgcolor="orange">奎斯提丝</td><td>キスティス</td><td>♀</td><td>Ⅴ</td><td>793</td><td>153</td><td>192</td><td>55</td><td>121</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>引雷</td><td>连续魔</td><td>敌之技</td><td>&nbsp;</td></tr>
+	<tr><td>FF3</td><td>289</td><td bgcolor="lightgreen">德许</td><td>デッシュ</td><td>♂</td><td>Ⅴ</td><td>953</td><td>153</td><td>138</td><td>64</td><td>43</td><td>1.0</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>魔法剑</td><td>乱击</td><td>金币任务</td></tr>
+	<tr><td>FF11</td><td>290</td><td bgcolor="orange">五郎八</td><td>イロハ</td><td>♀</td><td>Ⅴ</td><td>848</td><td>165</td><td>181</td><td>45</td><td>98</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>女神的祝福</td><td>奥义</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF4TA</td><td>291</td><td bgcolor="orange">哈尔</td><td>ハル</td><td>♀</td><td>Ⅴ</td><td>798</td><td>143</td><td>164</td><td>36</td><td>173</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>弓</td><td>狙击</td><td>投掷<br/>见破</td><td>算术</td><td>&nbsp;</td>
+	<tr><td>FF3</td><td>292</td><td bgcolor="yellow">赞德</td><td>ザンデ</td><td>♂</td><td>Ⅴ</td><td>977</td><td>234</td><td>154</td><td>36</td><td>77</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>魔力之泉</td><td>暗黑剑</td><td>彗星</td><td>EXA</td></tr>
+	<tr><td>FF8</td><td>293</td><td bgcolor="orange">奇洛斯</td><td>キロス</td><td>♂</td><td>Ⅴ</td><td>719</td><td>168</td><td>58</td><td>140</td><td>167</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>分身</td><td>HP吸收</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF14</td><td>294</td><td bgcolor="#cc99ff">无影</td><td>アシエン・ラハブレア</td><td>♂</td><td>Ⅴ</td><td>1171</td><td>202</td><td>196</td><td>119</td><td>120</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>魔力之泉</td><td>暗黑剑</td><td>算术</td><td>混沌限定池</td></tr>
+	<tr><td>FF4TA</td><td>295</td><td bgcolor="orange">残月</td><td>ザンゲツ</td><td>♂</td><td>Ⅴ</td><td>996</td><td>157</td><td>89</td><td>52</td><td>163</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>引雷</td><td>奥义</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>FF4TA</td><td>296</td><td bgcolor="lightgreen">凯因</td><td>カイン</td><td>♂</td><td>Ⅴ</td><td>471</td><td>143</td><td>61</td><td>117</td><td>1</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>分身</td><td>HP吸收</td><td>跳跃</td><td>超难任务</td></tr>
+	<tr><td>FFD</td><td>297</td><td bgcolor="orange">纳哈特</td><td>ナハト</td><td>♂</td><td>Ⅴ</td><td>1050</td><td>189</td><td>173</td><td>85</td><td>54</td><td>1.0</td><td bgcolor="orange">1.5</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>分身</td><td>暗黑剑</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>FFT</td><td>298</td><td bgcolor="orange">拉法</td><td>ラファ</td><td>♀</td><td>Ⅴ</td><td>693</td><td>167</td><td>186</td><td>119</td><td>45</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>真言</td><td>连续魔</td><td>乱击</td><td>&nbsp;</td></tr>
+
+	
+	<tr><td>FFCC-RF</td><td>301</td><td bgcolor="orange">阿尔哈纳雷姆</td><td>アルハナーレム</td><td>♂</td><td>Ⅴ</td><td>707</td><td>133</td><td>227</td><td>30</td><td>53</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>魔力之泉</td><td>調合</td><td>彗星</td><td>&nbsp;</td></tr>
+	<tr><td>WOFF</td><td>302</td><td bgcolor="lightgreen">小玉</td><td>タマ</td><td>♀</td><td>Ⅴ</td><td>458</td><td>91</td><td>157</td><td>86</td><td>35</td><td>1.0</td><td bgcolor="orange">1.5</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>波动</td><td>女神的祝福</td><td>速射</td><td>话术</td><td>联动活动</td></tr>
+	<tr><td>FFD</td><td>303</td><td bgcolor="orange">塞拉</td><td>セーラ</td><td>♀</td><td>Ⅴ</td><td>691</td><td>149</td><td>205</td><td>97</td><td>51</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td bgcolor="orange">2.5</td><td>弓</td><td>唱歌</td><td>魔法剑</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>WOFF</td><td>304</td><td bgcolor="orange">莲恩</td><td>レェン</td><td>♀</td><td>Ⅴ</td><td>822</td><td>162</td><td>174</td><td>72</td><td>66</td><td>1.0</td><td bgcolor="orange">1.5</td><td bgcolor="orange">2.0</td><td bgcolor="orange">3.8</td><td>1.0</td><td>短剑</td><td>真言</td><td>魔法剑</td><td>算术</td><td>&nbsp;</td></tr>
+	<tr><td>WOFF</td><td>305</td><td bgcolor="orange">朗恩</td><td>ラァン</td><td>♂</td><td>Ⅴ</td><td>822</td><td>174</td><td>162</td><td>59</td><td>114</td><td>1.0</td><td bgcolor="orange">1.5</td><td bgcolor="orange">2.0</td><td bgcolor="orange">3.8</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>保护</td><td>魔法剑</td><td>彗星</td><td>&nbsp;</td></tr>
+	<tr><td>WOFF</td><td>306</td><td bgcolor="yellow">企鹅女王</td><td>クイーンアチョ</td><td>♀</td><td>Ⅴ</td><td>834</td><td>160</td><td>207</td><td>84</td><td>148</td><td>1.0</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>分身</td><td>狂暴</td><td>敌之技</td><td>EXA</td></tr>
+	<tr><td>FF7AC</td><td>307</td><td bgcolor="lightgreen">雅兹</td><td>ヤズー</td><td>♂</td><td>Ⅴ</td><td>650</td><td>124</td><td>31</td><td>37</td><td>121</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>铳</td><td>分身</td><td>投掷</td><td>乱击</td><td>超难任务</td></tr>
+	<tr><td>FF7AC</td><td>308</td><td bgcolor="lightgreen">洛兹</td><td>ロッズ</td><td>♂</td><td>Ⅴ</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>保护</td><td>蓄力</td><td>强斩</td><td>超难任务</td></tr>
+	<tr><td>FF10</td><td>309</td><td bgcolor="#66a3ff">泰达</td><td>ティーダ</td><td>♂</td><td>C</td><td>1130</td><td>190</td><td>76</td><td>204</td><td>163</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>剑</td><td>保护</td><td>投掷</td><td>强斩</td><td>调和限定池</td></tr>
+	<tr><td>FFD</td><td>310</td><td bgcolor="orange">达斯克</td><td>ダスク</td><td>♂</td><td>Ⅴ</td><td>842</td><td>158</td><td>173</td><td>40</td><td>119</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>女神的祝福</td><td>速射</td><td>神圣</td><td>&nbsp;</td></tr>
+	<tr><td>FF2</td><td>311</td><td bgcolor="orange">理查德</td><td>リチャード</td><td>♂</td><td>Ⅴ</td><td>1104</td><td>196</td><td>32</td><td>125</td><td>51</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>保护</td><td>HP吸收</td><td>跳跃</td><td>&nbsp;</td></tr>
+	<tr><td>PFF</td><td>312</td><td bgcolor="pink">圣诞史考尔</td><td>サンタスコール</td><td>♂</td><td>Ⅴ</td><td>625</td><td>151</td><td>69</td><td>48</td><td>122</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>投掷</td><td>乱击</td><td>圣诞活动</td></tr>
+	<tr><td>FF6</td><td>313</td><td bgcolor="orange">嘎呜</td><td>ガウ</td><td>♂</td><td>Ⅴ</td><td>741</td><td>217</td><td>1</td><td>145</td><td>42</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>引雷</td><td>狂暴</td><td>敌之技</td><td>&nbsp;</td></tr>
+	<tr><td>FF10</td><td>314</td><td bgcolor="yellow">尤娜蕾丝卡</td><td>ユウナレスカ</td><td>♀</td><td>Ⅴ</td><td>1099</td><td>103</td><td>223</td><td>41</td><td>150</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td bgcolor="orange">5.1</td><td>1.0</td><td>波动</td><td>AF</td><td>HP吸收</td><td>话术</td><td>EXA</td></tr>
+	<tr><td>FF3</td><td>317</td><td bgcolor="#66a3ff">洋葱剑士</td><td>オニオンナイト</td><td>♂</td><td>C</td><td>932</td><td>180</td><td>168</td><td>168</td><td>168</td><td>1.0</td><td bgcolor="orange">1.7</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>分身</td><td>投掷</td><td>乱击</td><td>调和限定池</td></tr>
+	<tr><td>FF4</td><td>318</td><td bgcolor="#66a3ff">塞西尔</td><td>セシル</td><td>♂</td><td>C</td><td>1662</td><td>214</td><td>187</td><td>129</td><td>78</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>暗黑剑</td><td>强斩</td><td>调和限定池</td></tr>
+	<tr><td>FFUSA</td><td>319</td><td bgcolor="orange">扎修</td><td>ザッシュ</td><td>♂</td><td>Ⅴ</td><td>1189</td><td>167</td><td>169</td><td>50</td><td>147</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>投掷</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>FFD</td><td>320</td><td bgcolor="orange">格雷布</td><td>グレイブ</td><td>♂</td><td>Ⅴ</td><td>934</td><td>215</td><td>42</td><td>32</td><td>56</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">4.8</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>AF</td><td>蓄力</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>FF10-2</td><td>321</td><td bgcolor="lightgreen">努吉</td><td>ヌージ</td><td>♂</td><td>Ⅴ</td><td>633</td><td>144</td><td>130</td><td>31</td><td>85</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>铳</td><td>狙击</td><td>见破</td><td>算术</td><td>联动活动</td></tr>
+	<tr><td>FFD</td><td>322</td><td bgcolor="orange">阿鲁巴</td><td>アルバ</td><td>♀</td><td>Ⅴ</td><td>658</td><td>158</td><td>173</td><td>30</td><td>140</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>魔力之泉</td><td>跳舞</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>FF11</td><td>323</td><td bgcolor="orange">塞米·拉菲那</td><td>セミ・ラフィーナ</td><td>♀</td><td>Ⅴ</td><td>987</td><td>201</td><td>76</td><td>69</td><td>43</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>弓</td><td>保护</td><td>速射</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FFCC</td><td>324</td><td bgcolor="orange">奇阿兰</td><td>キアラン</td><td>♂</td><td>Ⅴ</td><td>814</td><td>206</td><td>68</td><td>113</td><td>80</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>暗黑剑</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF10-2</td><td>325</td><td bgcolor="yellow">卢布兰</td><td>ルブラン</td><td>♀</td><td>Ⅴ</td><td>1029</td><td>205</td><td>206</td><td>161</td><td>84</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>斧</td><td>唱歌</td><td>速射</td><td>偷盗</td><td>EXA</td></tr>
+	<tr><td>FF15</td><td>326</td><td bgcolor="orange">诺克提斯</td><td>ノクティス</td><td>♂</td><td>Ⅴ</td><td>918</td><td>181</td><td>156</td><td>118</td><td>115</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>剑</td><td>狙击</td><td>速射</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td>FFD</td><td>327</td><td bgcolor="orange">狄亚娜</td><td>ディアナ</td><td>♀</td><td>Ⅴ</td><td>776</td><td>136</td><td>210</td><td>55</td><td>131</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td bgcolor="orange">4.8</td><td>1.0</td><td>短剑</td><td>女神的祝福</td><td>欧拉</td><td>巴哈姆特</td><td>&nbsp;</td></tr>
+	<tr><td>FFCC-MLD</td><td>328</td><td bgcolor="lightgreen">米拉</td><td>ミラ</td><td>♀</td><td>Ⅴ</td><td>394</td><td>76</td><td>162</td><td>26</td><td>27</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>4.8 </td><td>1.0</td><td>波动</td><td>唱歌</td><td>见破</td><td>核融</td><td>超难任务</td></tr>
+	<tr><td>FF1</td><td>329</td><td bgcolor="#66a3ff">光之战士</td><td>ウォーリアオブライト</td><td>♂</td><td>C</td><td>1992</td><td>211</td><td>108</td><td>72</td><td>126</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>蓄力</td><td>前冲</td><td>调和限定池</td></tr>
+	<tr><td>FF12RW</td><td>330</td><td bgcolor="orange">凯伊兹</td><td>カイツ</td><td>♂</td><td>Ⅴ</td><td>441</td><td>130</td><td>153</td><td>34</td><td>121</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>炮击</td><td>投掷</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>FF15</td><td>331</td><td bgcolor="orange">格拉迪欧拉斯</td><td>グラディオラス</td><td>♂</td><td>Ⅴ</td><td>1821</td><td>195</td><td>34</td><td>32</td><td>22</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>蓄力</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>FFD</td><td>332</td><td bgcolor="orange">艾吉斯</td><td>アイギス</td><td>♂</td><td>Ⅴ</td><td>1472</td><td>162</td><td>217</td><td>40</td><td>52</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>见破</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>FF12RW</td><td>333</td><td bgcolor="yellow">巴噶莫南</td><td>バッガモナン</td><td>♂</td><td>Ⅴ</td><td>1420</td><td>234</td><td>28</td><td>100</td><td>108</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>斧</td><td>引雷</td><td>狂暴</td><td>跳跃</td><td>EXA</td></tr>
+	<tr><td>FFCC-RF</td><td>334</td><td bgcolor="orange">密斯</td><td>ミース</td><td>♀</td><td>Ⅴ</td><td>1272</td><td>221</td><td>42</td><td>74</td><td>60</td><td>1.0</td><td>1.0</td><td bgcolor="orange">1.5</td><td>1.0</td><td>1.0</td><td>魔棒</td><td>引雷</td><td>調合</td><td>前冲</td><td>&nbsp;</td></tr>
+	<tr><td>FF12RW</td><td>335</td><td bgcolor="orange">潘尼罗</td><td>パンネロ</td><td>♀</td><td>Ⅴ</td><td>627</td><td>152</td><td>176</td><td>42</td><td>168</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>女神的祝福</td><td>跳舞</td><td>神圣</td><td>&nbsp;</td></tr>
+	<tr><td>FF7</td><td>336</td><td bgcolor="lightgreen">路德</td><td>ルード</td><td>♂</td><td>Ⅴ</td><td>593</td><td>162</td><td>147</td><td>26</td><td>24</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>真言</td><td>欧拉</td><td>强斩</td><td>超难任务</td></tr>
+	<tr><td>FF7</td><td>337</td><td bgcolor="lightgreen">伊莉娜</td><td>イリーナ</td><td>♀</td><td>Ⅴ</td><td>586</td><td>132</td><td>32</td><td>26</td><td>132</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>投掷</td><td>狙击</td><td>調合</td><td>算术</td><td>超难任务</td></tr>
+	<tr><td>FF14</td><td>338</td><td bgcolor="#66a3ff">雅·修特拉</td><td>ヤ·シュトラ</td><td>♀</td><td>C</td><td>977</td><td>158</td><td>253</td><td>185</td><td>78</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>女神的祝福</td><td>欧拉</td><td>话术</td><td>调和限定池</td></tr>
+	<tr><td>FFD</td><td>339</td><td bgcolor="orange">索尔</td><td>ソール</td><td>♂</td><td>Ⅴ</td><td>1179</td><td>223</td><td>30</td><td>52</td><td>34</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>HP吸收</td><td>前冲</td><td>&nbsp;</td></tr>
+	<tr><td>FF14</td><td>340</td><td bgcolor="#cc99ff">托尔丹7世</td><td>トールダン7世</td><td>♂</td><td>Ⅴ</td><td>942</td><td>155</td><td>259</td><td>46</td><td>133</td><td>1.0</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>魔力之泉</td><td>连续魔</td><td>算术<br/>彗星</td><td>混沌限定池</td>
+	<tr><td>FF14</td><td>341</td><td bgcolor="lightgreen">艾斯蒂尼安</td><td>エスティニアン</td><td>♂</td><td>Ⅴ</td><td>618</td><td>162</td><td>56</td><td>141</td><td>22</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.0</td><td>枪</td><td>OP</td><td>暗黑剑</td><td>跳跃</td><td>联动活动</td></tr>
+	<tr><td>FF14</td><td>342</td><td bgcolor="orange">阿尔菲诺</td><td>アルフィノ</td><td>♂</td><td>Ⅴ</td><td>635</td><td>157</td><td>176</td><td>26</td><td>112</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td bgcolor="orange">4.0</td><td>1.0</td><td>波动</td><td>AF</td><td>HP吸收</td><td>算术</td><td>&nbsp;</td></tr>
+	<tr><td>FF14</td><td>343</td><td bgcolor="orange">奥尔什方</td><td>オルシュファン</td><td>♂</td><td>Ⅴ</td><td>1085</td><td>169</td><td>108</td><td>22</td><td>82</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>欧拉</td><td>话术</td><td>&nbsp;</td></tr>
+	<tr><td>FF14</td><td>344</td><td bgcolor="yellow">伊泽尔</td><td>イゼル</td><td>♀</td><td>Ⅴ</td><td>794</td><td>208</td><td>177</td><td>125</td><td>38</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>魔力之泉</td><td>速射<br/>投掷</td><td>乱击</td><td>EXA</td>
+	<tr><td>FF12</td><td>345</td><td bgcolor="lightgreen">雷达斯</td><td>レダス</td><td>♂</td><td>Ⅴ</td><td>590</td><td>185</td><td>32</td><td>26</td><td>92</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>狂暴</td><td>强斩</td><td>超难任务</td></tr>
+	<tr><td>FF12</td><td>346</td><td bgcolor="#66a3ff">梵</td><td>ヴァン</td><td>♂</td><td>C</td><td>1139</td><td>215</td><td>45</td><td>190</td><td>128</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>OP</td><td>蓄力</td><td>乱击</td><td>调和限定池</td></tr>
+	<tr><td>FF15</td><td>347</td><td bgcolor="orange">普朗普特</td><td>プロンプト</td><td>♂</td><td>Ⅴ</td><td>646</td><td>151</td><td>39</td><td>131</td><td>198</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>铳</td><td>唱歌</td><td>投掷</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FFCC-CB</td><td>348</td><td bgcolor="orange">库阿伊斯</td><td>クァイス</td><td>♂</td><td>Ⅴ</td><td>780</td><td>157</td><td>82</td><td>122</td><td>163</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>短剑</td><td>引雷</td><td>投掷</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FFCC-RF</td><td>349</td><td bgcolor="lightgreen">切琳卡</td><td>チェリンカ</td><td>♀</td><td>Ⅴ</td><td>495</td><td>128</td><td>135</td><td>36</td><td>136</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>波动</td><td>女神的祝福</td><td>欧拉</td><td>强斩</td><td>联动活动</td></tr>
+	<tr><td>LRFF13</td><td>350</td><td bgcolor="orange">斯诺</td><td>スノウ</td><td>♂</td><td>Ⅴ</td><td>1432</td><td>201</td><td>139</td><td>107</td><td>22</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>斧</td><td>OP</td><td>狂暴</td><td>强斩</td><td>&nbsp;</td></tr>
+
+	
+	<tr><td>FF4TA</td><td>351</td><td bgcolor="orange">高贝扎</td><td>ゴルベーザ</td><td>♂</td><td>Ⅴ</td><td>1083</td><td>168</td><td>211</td><td>72</td><td>49</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>剑</td><td>保护</td><td>蓄力</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td rowspan="2">FFCC-RF</td><td rowspan="2">352</td><td rowspan="2" bgcolor="yellow">库·恰斯佩尔</td><td rowspan="2">クー·チャスペル</td><td rowspan="2">♂</td><td rowspan="2">Ⅴ</td><td rowspan="2">977</td><td rowspan="2">181</td><td rowspan="2">132</td><td rowspan="2">137</td><td rowspan="2">121</td>
+		<td rowspan="2">1.0</td><td rowspan="2">1.0</td><td rowspan="2" bgcolor="orange">2.0</td><td rowspan="2">1.0</td><td rowspan="2" bgcolor="orange">2.5</td><td rowspan="2">投掷</td><td rowspan="2">分身</td><td>暗黑剑<td rowspan="2">居合斩</td><td rowspan="2">EXA</td>
+		<tr><td>HP吸收</td></tr>
+	<tr><td>FF7CC</td><td>353</td><td bgcolor="orange">克劳德</td><td>クラウド</td><td>♂</td><td>Ⅴ</td><td>748</td><td>207</td><td>37</td><td>121</td><td>59</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="orange">2.5</td><td>铳</td><td>OP</td><td>狂暴</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF10</td><td>354</td><td bgcolor="lightgreen">比朗</td><td>ビラン</td><td>♂</td><td>Ⅴ</td><td>338</td><td>227</td><td>212</td><td>26</td><td>25</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>保护</td><td>连续魔</td><td>敌之技</td><td>超难任务</td></tr>
+	<tr><td>FF10</td><td>355</td><td bgcolor="lightgreen">恩格</td><td>エンケ</td><td>♂</td><td>Ⅴ</td><td>650</td><td>191</td><td>31</td><td>26</td><td>25</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>保护</td><td>HP吸收</td><td>敌之技</td><td>超难任务</td></tr>
+	<tr><td>FF7AC</td><td>356</td><td bgcolor="orange">蒂法</td><td>ティファ</td><td>♀</td><td>Ⅴ</td><td>1011</td><td>171</td><td>49</td><td>84</td><td>183</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>保护</td><td>奥义</td><td>强斩</td><td>&nbsp;</td></tr>
+	<tr><td>FF9</td><td>357</td><td bgcolor="#66a3ff">吉坦</td><td>ジタン</td><td>♂</td><td>C</td><td>1096</td><td>192</td><td>97</td><td>225</td><td>154</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>短剑</td><td>保护</td><td>狂暴</td><td>偷盗</td><td>调和限定池</td></tr>
+	<tr><td>FFT</td><td>358</td><td bgcolor="orange">贝奥武夫</td><td>ベイオウーフ</td><td>♂</td><td>Ⅴ</td><td>655</td><td>166</td><td>214</td><td>38</td><td>33</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>魔法剑</td><td>核融</td><td>&nbsp;</td></tr>
+	<tr><td>FF4TA</td><td>359</td><td bgcolor="orange">吉尔伯特</td><td>ギルバート</td><td>♂</td><td>Ⅴ</td><td>637</td><td>153</td><td>135</td><td>141</td><td>83</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>乐器</td><td>唱歌</td><td>調合</td><td>算术</td><td>&nbsp;</td></tr>
+	<tr><td>FFT</td><td>360</td><td bgcolor="orange">加夫加里安</td><td>ガフガリオン</td><td>♂</td><td>Ⅴ</td><td>1112</td><td>202</td><td>44</td><td>26</td><td>120</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>暗黑剑</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td rowspan="2">FFT</td><td rowspan="2">361</td><td rowspan="2" bgcolor="yellow">蕾洁</td><td rowspan="2">レーゼ</td><td rowspan="2">♀</td><td rowspan="2">Ⅴ</td><td rowspan="2">1609</td><td rowspan="2">196</td><td rowspan="2">41</td><td rowspan="2">58</td><td rowspan="2">121</td><td rowspan="2">1.0</td>
+		<td rowspan="2" bgcolor="cyan">0.7</td><td rowspan="2" bgcolor="cyan">0.7</td><td rowspan="2">1.0</td><td rowspan="2" bgcolor="cyan">0.8</td><td rowspan="2">格斗</td><td rowspan="2">真言</td><td rowspan="2">狂暴</td><td>敌之技<td rowspan="2">EXA</td>
+		<tr><td>话术</td></tr>
+	<tr><td>FF11</td><td>362</td><td bgcolor="#66a3ff">香托托</td><td>シャントット</td><td>♀</td><td>C</td><td>854</td><td>180</td><td>281</td><td>50</td><td>127</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.2 </td><td>1.0</td><td>1.0</td><td>魔棒</td><td>魔力之泉</td><td>连续魔</td><td>算术</td><td>调和限定池</td></tr>
+	<tr><td>LRFF13</td><td>363</td><td bgcolor="#66a3ff">雷霆</td><td>ライトニング</td><td>♀</td><td>C</td><td>1111</td><td>205</td><td>217</td><td>172</td><td>80</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>剑</td><td>引雷</td><td>奥义</td><td>居合斩</td><td>调和限定池</td></tr>
+	<tr><td>FF11</td><td>364</td><td bgcolor="orange">阿鲁多</td><td>アルド</td><td>♂</td><td>Ⅴ</td><td>757</td><td>187</td><td>56</td><td>135</td><td>111</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>短剑</td><td>分身</td><td>速射</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>FF11</td><td>365</td><td bgcolor="lightgreen">哉多</td><td>ザイド</td><td>♂</td><td>Ⅴ</td><td>480</td><td>213</td><td>42</td><td>26</td><td>136</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>暗黑剑</td><td>强斩</td><td>超难任务</td></tr>
+	<tr><td>FF8</td><td>366</td><td bgcolor="#66a3ff">斯考尔</td><td>スコール</td><td>♂</td><td>C</td><td>1129</td><td>233</td><td>97</td><td>123</td><td>167</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>奥义</td><td>乱击</td><td>调和限定池</td></tr>
+	<tr><td>FF5</td><td>367</td><td bgcolor="pink">圣诞巴兹</td><td>サンタバッツ</td><td>♂</td><td>Ⅴ</td><td>652</td><td>169</td><td>38</td><td>72</td><td>87</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>速射</td><td>乱击</td><td>圣诞活动</td></tr>
+	<tr><td rowspan="2">FF5</td><td rowspan="2">368</td><td rowspan="2" bgcolor="yellow">圣诞蕾娜</td><td rowspan="2">サンタレナ</td><td rowspan="2">♀</td><td rowspan="2">Ⅴ</td><td rowspan="2">1070</td><td rowspan="2">185</td><td rowspan="2">231</td><td rowspan="2">95</td><td rowspan="2">132</td><td rowspan="2">1.0</td>
+		<td rowspan="2" bgcolor="orange" >1.7</td><td rowspan="2" bgcolor="orange">2.0</td><td rowspan="2">1.0</td><td rowspan="2">1.0</td><td rowspan="2">短剑</td><td rowspan="2">X</td><td>连续魔</td><td>乱击</td><td rowspan="2">EXA</td></tr>
+		<tr><td>跳舞</td><td>彗星</td></tr>
+	<tr><td rowspan="2">FF5</td><td rowspan="2">368</td><td rowspan="2" bgcolor="yellow">圣诞蕾娜</td><td rowspan="2">サンタレナ</td><td rowspan="2">♀</td><td rowspan="2">E</td><td rowspan="2">1224</td><td rowspan="2">229</td><td rowspan="2">278</td><td rowspan="2">135</td><td rowspan="2">175</td><td rowspan="2">1.0</td>
+		<td rowspan="2" bgcolor="orange" >1.7</td><td rowspan="2" bgcolor="orange">2.0</td><td rowspan="2">1.0</td><td rowspan="2">1.0</td><td rowspan="2">短剑</td><td rowspan="2">X</td><td>连续魔</td><td>乱击</td><td rowspan="2">EXA</td></tr>
+		<tr><td>跳舞</td><td>彗星</td></tr>
+	<tr><td>FF7</td><td>369</td><td bgcolor="#66a3ff">克劳德</td><td>クラウド</td><td>♂</td><td>C</td><td>1203</td><td>238</td><td>88</td><td>153</td><td>123</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>OP</td><td>狂暴</td><td>居合斩</td><td>调和限定池</td></tr>
+	<tr><td>DFFNT</td><td>370</td><td bgcolor="#66a3ff">马特里亚</td><td>マーテリア</td><td>♀</td><td>C</td><td>1085</td><td>236</td><td>173</td><td>52</td><td>153</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>真言</td><td>速射</td><td>乱击</td><td>调和限定池</td></tr>
+	<tr><td>FF1</td><td>371</td><td bgcolor="lightgreen">马托亚</td><td>マトーヤ</td><td>♀</td><td>Ⅴ</td><td>458</td><td>72</td><td>207</td><td>136</td><td>25</td><td bgcolor="cyan">0.7</td><td bgcolor="orange">1.7</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>杖</td><td>女神的祝福</td><td>調合</td><td>彗星</td><td>超难任务</td></tr>
+	<tr><td>FF5</td><td>372</td><td bgcolor="orange">多尔干</td><td>ドルガン</td><td>♂</td><td>Ⅴ</td><td>1169</td><td>178</td><td>46</td><td>48</td><td>138</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>真言</td><td>见破</td><td>乱击</td><td>&nbsp;</td></tr>
+	<tr><td>DFFNT</td><td>373</td><td bgcolor="#cc99ff">斯匹利塔斯</td><td>スピリタス</td><td>♂</td><td>Ⅴ</td><td>1538</td><td>187</td><td>280</td><td>136</td><td>113</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>魔力之泉</td><td>连续魔</td><td>彗星</td><td>混沌限定池</td></tr>
+	<tr><td>FF9</td><td>374</td><td bgcolor="lightgreen">吉坦</td><td>ジタン</td><td>♂</td><td>Ⅴ</td><td>573</td><td>139</td><td>31</td><td>82</td><td>168</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>短剑</td><td>分身</td><td>跳舞</td><td>偷盗</td><td>联动活动</td></tr>				
+	<tr><td>FF12</td><td>375</td><td bgcolor="orange">沃斯拉</td><td>ウォースラ</td><td>♂</td><td>Ⅴ</td><td>1656</td><td>178</td><td>70</td><td>76</td><td>24</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>骑士剑</td><td>保护</td><td>狂暴</td><td>算术</td><td>&nbsp;</td></tr>				
+	<tr><td>FF15</td><td>376</td><td bgcolor="orange">菲罗</td><td>フィロ</td><td>♀</td><td>V</td><td>788</td><td>181</td><td>30</td><td>179</td><td>107</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td bgcolor="cyan">0.8</td><td>格斗</td><td>引雷</td><td>速射</td><td>居合斩</td><td>&nbsp;</td></tr>
+	<tr><td rowspan="2">FF9</td><td rowspan="2">377</td><td rowspan="2" bgcolor="yellow">加尼特</td><td rowspan="2">ガーネット</td><td rowspan="2">♀</td><td rowspan="2">Ⅴ</td><td rowspan="2">805</td><td rowspan="2">137</td><td rowspan="2">212</td><td rowspan="2">169</td><td rowspan="2">106</td><td rowspan="2">1.0</td>
+		<td rowspan="2" bgcolor="orange">1.7</td><td rowspan="2">1.0</td><td rowspan="2" bgcolor="orange">5.1</td><td rowspan="2">1.0</td><td rowspan="2">魔棒</td><td rowspan="2">唱歌</td><td rowspan="2">欧拉</td><td>巴哈姆特</td><td rowspan="2">EXA</td></tr>
+		<tr><td>话术</td></tr>
+	<tr><td rowspan="2">FF9</td><td rowspan="2">377</td><td rowspan="2" bgcolor="yellow">加尼特</td><td rowspan="2">ガーネット</td><td rowspan="2">♀</td><td rowspan="2">E</td><td rowspan="2">945</td><td rowspan="2">179</td><td rowspan="2">258</td><td rowspan="2">216</td><td rowspan="2">147</td><td rowspan="2">1.0</td>
+		<td rowspan="2" bgcolor="orange">1.7</td><td rowspan="2">1.0</td><td rowspan="2" bgcolor="orange">5.1</td><td rowspan="2">1.0</td><td rowspan="2">魔棒</td><td rowspan="2">唱歌</td><td rowspan="2">欧拉</td><td>巴哈姆特</td><td rowspan="2">EXA</td></tr>
+		<tr><td>话术</td></tr>
+	<tr><td>FF15</td><td>378</td><td bgcolor="#66a3ff">诺克提斯</td><td>ノクティス</td><td>♂</td><td>C</td><td>893</td><td>227</td><td>184</td><td>117</td><td>137</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>剑</td><td>狙击</td><td>速射</td><td>居合斩</td><td>调和限定池</td></tr>				
+	<tr><td>FF15</td><td>379</td><td bgcolor="orange">伊格尼斯</td><td>イグニス</td><td>♂</td><td>Ⅴ</td><td>797</td><td>184</td><td>193</td><td>103</td><td>29</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td>1.0</td><td>1.0</td><td>短剑</td><td>真言</td><td>见破</td><td>算术</td><td>&nbsp;</td></tr>
+	<tr><td>FF4TA</td><td>380</td><td bgcolor="lightgreen">加尔克</td><td>カルコ</td><td>♂</td><td>Ⅴ</td><td>320</td><td>130</td><td>30</td><td>24</td><td>100</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>短剑</td><td>引雷</td><td>跳舞</td><td>乱击</td><td>超难任务</td></tr>				
+	<tr><td>FF4TA</td><td>381</td><td bgcolor="lightgreen">布丽娜</td><td>ブリーナ</td><td>♀</td><td>Ⅴ</td><td>420</td><td>90</td><td>148</td><td>24</td><td>23</td><td>1.0</td><td bgcolor="orange">1.7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>短剑</td><td>真言</td><td>跳舞</td><td>话术</td><td>超难任务</td></tr>				
+	<tr><td>FF9</td><td>382</td><td bgcolor="orange">马卡斯</td><td>マーカス</td><td>♂</td><td>Ⅴ</td><td>999</td><td>203</td><td>39</td><td>125</td><td>48</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>剑</td><td>炮击</td><td>蓄力</td><td>偷盗</td><td>&nbsp;</td></tr>
+	<tr><td>FF6</td><td>383</td><td bgcolor="#66a3ff">蒂娜</td><td>ティナ</td><td>♀</td><td>C</td><td>1013</td><td>180</td><td>253</td><td>129</td><td>60</td><td>1.0</td><td>1.0</td><td bgcolor="orange">2.0</td><td bgcolor="orange">5.8</td><td>1.0</td><td>剑</td><td>AF</td><td>连续魔</td><td>彗星</td><td>调和限定池</td></tr>
+	<tr><td>FF3</td><td>384</td><td bgcolor="lightgreen">鲁内斯</td><td>ルーネス</td><td>♂</td><td>Ⅴ</td><td>1216</td><td>181</td><td>34</td><td>20</td><td>50</td><td>1.0</td><td bgcolor="cyan">0.7</td><td bgcolor="cyan">0.7</td><td>1.0</td><td>1.0</td><td>斧</td><td>引雷</td><td>HP吸收</td><td>乱击</td><td>联动活动</td></tr>				
+	<tr><td rowspan="2">FF15</td><td rowspan="2">385</td><td bgcolor="orange" rowspan="2">阿拉尼亚</td><td rowspan="2">アラネア</td><td rowspan="2">♀</td><td rowspan="2">Ⅴ</td><td rowspan="2">787</td><td rowspan="2">184</td><td rowspan="2">56</td><td rowspan="2">98</td><td rowspan="2">129</td>
+		<td rowspan="2">1.0</td><td bgcolor="cyan" rowspan="2">0.7</td><td bgcolor="cyan" rowspan="2">0.7</td><td rowspan="2">1.0</td><td rowspan="2">1.0</td><td rowspan="2">枪</td><td rowspan="2">引雷</td><td rowspan="2">X</td><td>乱击</td><td rowspan="2">&nbsp;</td></tr>		
+		<tr><td>跳跃</td></tr>
+	<tr><td rowspan="2">FF3</td><td rowspan="2">386</td><td rowspan="2" bgcolor="yellow">艾丽娅</td><td rowspan="2">エリア</td><td rowspan="2">♀</td><td rowspan="2">Ⅴ</td><td rowspan="2">736</td><td rowspan="2">196</td><td rowspan="2">164</td><td rowspan="2">22</td><td rowspan="2">191</td><td rowspan="2">1.0</td>
+		<td rowspan="2">???</td><td rowspan="2">???</td><td rowspan="2">???</td><td rowspan="2">1.0</td><td rowspan="2">波动</td><td>保护</td><td rowspan="2">调和</td><td rowspan="2">算术</td><td rowspan="2">EXA</td></tr>
+		<tr><td>引雷</td></tr>
+	<tr><td rowspan="2">FF3</td><td rowspan="2">386</td><td rowspan="2" bgcolor="yellow">艾丽娅</td><td rowspan="2">エリア</td><td rowspan="2">♀</td><td rowspan="2">E</td><td rowspan="2">873</td><td rowspan="2">241</td><td rowspan="2">207</td><td rowspan="2">54</td><td rowspan="2">240</td><td rowspan="2">1.0</td>
+		<td rowspan="2">???</td><td rowspan="2">???</td><td rowspan="2">???</td><td rowspan="2">1.0</td><td rowspan="2">波动</td><td>保护</td><td rowspan="2">调和</td><td rowspan="2">算术</td><td rowspan="2">EXA</td></tr>
+		<tr><td>引雷</td></tr>
+
+</table></center>
+</div>
+	
+<br/>
+	
+<div class="super_container">	
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row footer_content d-flex flex-sm-row flex-column align-items-center">
+				<div class="col-sm-6 cr text-sm-left text-center">
+					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script language="javascript" type="text/javascript">
+	var mainFilter = {
+		sort_select: true,
+		loader: true,
+		on_change: true,
+		display_all_text: "Clear",
+		col_width: [null, "3%", "8%", "8%"
+			, "3%", null, null, null
+			, null, null, null, null
+			, null, null, null, null
+			, null, null, null, null
+			, "7%"],
+
+		col_0: "select",
+		col_1: "none",
+		col_3: "none",
+		col_4: "select",
+		col_5: "none",
+		col_6: "none",
+		col_7: "none",
+		col_8: "none",
+		col_9: "none",
+		col_10: "none",
+		col_11: "select",
+		col_12: "select",
+		col_13: "select",
+		col_14: "select",
+		col_15: "select",
+		col_16: "select",
+		col_17: "select",
+		col_18: "select",
+		col_19: "select",
+		col_20: "select",
+	}
+	setFilterGrid("mainTable", 0, mainFilter);	
+</script>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/parallax.js-1.5.0/parallax.min.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/services_custom.js"></script>
+</body>
+</html>
+
