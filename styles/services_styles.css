@@ -61,8 +61,12 @@ ul
 }
 p
 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+	font-family: 
+		Georgia, "Times New Roman", 
+		"Microsoft YaHei", "微软雅黑", 
+		STXihei, "华文细黑", 
+		serif;
+	font-size: 16px;
 	line-height: 2;
 	font-weight: 400;
 	color: #6e6e6e;
@@ -113,7 +117,7 @@ p::selection
 	background: #66c7e0;
 }
 h1{font-size: 48px;}
-h2{font-size: 30px;}
+h2{font-size: 24px;}
 h3{font-size: 18px;}
 h4{font-size: 14px;}
 h5{font-size: 11px;}
